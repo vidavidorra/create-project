@@ -1,0 +1,36 @@
+name: CI/CD
+on:
+  push:
+    branches:
+      - main
+      - beta
+      - renovate/**
+  pull_request: null
+jobs:
+  lint-commit-messages:
+    uses: vidavidorra/.github/.github/workflows/lint-commit-messages.yml@62580a2290da7a11a4332bbafc49ecb895d6873e # v3.0.0
+  lint:
+    uses: vidavidorra/.github/.github/workflows/node-lint.yml@62580a2290da7a11a4332bbafc49ecb895d6873e # v3.0.0
+  build:
+    uses: vidavidorra/.github/.github/workflows/node-build.yml@62580a2290da7a11a4332bbafc49ecb895d6873e # v3.0.0
+  test:
+    uses: vidavidorra/.github/.github/workflows/node-test.yml@62580a2290da7a11a4332bbafc49ecb895d6873e # v3.0.0
+  code-coverage:
+    uses: vidavidorra/.github/.github/workflows/node-test-coverage.yml@62580a2290da7a11a4332bbafc49ecb895d6873e # v3.0.0
+    needs:
+      - lint
+      - build
+      - test
+    secrets:
+      codecovToken: ${{ secrets.CODECOV_TOKEN }}
+  release:
+    uses: vidavidorra/.github/.github/workflows/release.yml@62580a2290da7a11a4332bbafc49ecb895d6873e # v3.0.0
+    needs:
+      - lint-commit-messages
+      - lint
+      - build
+      - test
+      - code-coverage
+    secrets:
+      privateKey: ${{ secrets.RELEASE_PRIVATE_KEY }}
+      npmToken: ${{ secrets.NPM_PUBLISH_TOKEN }}
