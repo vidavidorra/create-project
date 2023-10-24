@@ -30,7 +30,7 @@ test('sets "files" to non-test files in dist', (t) => {
 
 const includes = test.macro<[boolean, keyof PackageJson, keyof Options]>({
   async exec(t, include, value, option) {
-    if (option === 'public' ? !include : include) {
+    if (include) {
       t.not(packageJson({[option]: include})[value], undefined);
     } else {
       t.is(packageJson({[option]: include})[value], undefined);
@@ -47,8 +47,11 @@ const includes = test.macro<[boolean, keyof PackageJson, keyof Options]>({
 test('sets "private" to "true" without "public" option', (t) => {
   t.is(packageJson({public: false}).private, true);
 });
-test(includes, true, 'private', 'public');
-test(includes, false, 'private', 'public');
+test('does not include "private" with "public" option', (t) => {
+  t.is(packageJson({public: true}).private, undefined);
+});
+test(includes, true, 'publishConfig', 'public');
+test(includes, false, 'publishConfig', 'public');
 test(includes, true, 'exports', 'typescript');
 test(includes, false, 'exports', 'typescript');
 test(includes, true, 'files', 'typescript');

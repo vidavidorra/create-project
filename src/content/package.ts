@@ -51,7 +51,10 @@ const schema = z
     dependencies: z.record(z.string()).optional(),
     devDependencies: z.record(z.string()),
     engines: z.object({node: z.literal('>=18')}).strict(),
-    publishConfig: z.object({access: z.literal('public')}).strict(),
+    publishConfig: z
+      .object({access: z.literal('public')})
+      .strict()
+      .optional(),
   })
   .strict();
 
@@ -85,6 +88,7 @@ class Package extends File {
       delete this._package.private;
     } else {
       this._package.private = true;
+      delete this._package.publishConfig;
     }
 
     const devDependencies = [
