@@ -25,6 +25,7 @@ const schema = z
     author: z.string().min(1),
     type: z.literal('module'),
     exports: z.string().min(1).optional(),
+    bin: z.record(z.unknown()).optional(),
     files: z
       .tuple([z.literal('./dist/**/!(*.test).{js,d.ts,cjs}')])
       .rest(z.string().min(1))
@@ -83,6 +84,7 @@ class Package extends File {
       ...this._package.devDependencies,
       ...this._package.dependencies,
     };
+    delete this._package.bin;
     delete this._package.dependencies;
     if (this._options.public) {
       delete this._package.private;

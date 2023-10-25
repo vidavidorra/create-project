@@ -9,7 +9,7 @@ Interactively create a project.
 
 [![npm version](https://img.shields.io/npm/v/@vidavidorra/create-project?logo=npm&style=flat-square)](https://www.npmjs.com/package/@vidavidorra/create-project)
 [![npm downloads](https://img.shields.io/npm/dm/@vidavidorra/create-project?logo=npm&style=flat-square)](https://www.npmjs.com/package/@vidavidorra/create-project)
-[![Node.js version support](https://img.shields.io/node/v/@vidavidorracreate-project?logo=node.js&style=flat-square)](https://nodejs.org/en/about/releases/)
+[![Node.js version support](https://img.shields.io/node/v/@vidavidorra/create-project?logo=node.js&style=flat-square)](https://nodejs.org/en/about/releases/)
 [![Renovate enabled](https://img.shields.io/badge/Renovate-enabled-brightgreen?logo=renovatebot&logoColor&style=flat-square)](https://renovatebot.com)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079?style=flat-square)](https://github.com/semantic-release/semantic-release)
 [![Code coverage](https://img.shields.io/codecov/c/github/vidavidorra/create-project?logo=codecov&style=flat-square)](https://codecov.io/gh/vidavidorra/create-project)
@@ -32,7 +32,13 @@ npm install --global @vidavidorra/create-project
 Start the interactive CLI to create a project.
 
 ```shell
-@vidavidorra/create-project
+create-project
+```
+
+Or run the interactive CLI directly via `npx`.
+
+```shell
+npx @vidavidorra/create-project
 ```
 
 ## Contributing

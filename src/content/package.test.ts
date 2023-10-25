@@ -21,6 +21,9 @@ test(sets, 'name', options.package, '"package" option');
 test(sets, 'version', '0.1.0', '"0.1.0"');
 test(sets, 'description', options.description, '"description" option');
 test(sets, 'author', options.author, '"author" option');
+test('does not include "bin"', (t) => {
+  t.is(packageJson().bin, undefined);
+});
 test('does not include "dependencies"', (t) => {
   t.is(packageJson().dependencies, undefined);
 });
