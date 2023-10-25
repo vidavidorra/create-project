@@ -52,6 +52,7 @@ const schema = z
   })
   .strict();
 
+type OptionsInput = z.input<typeof schema>;
 type Options = z.infer<typeof schema>;
 
-export {schema, schema as options, type Options};
+export {schema, schema as options, type Options, type OptionsInput};
