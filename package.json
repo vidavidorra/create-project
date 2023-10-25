@@ -179,6 +179,7 @@
     }
   },
   "c8": {
+    "all": true,
     "include": [
       "dist/**/*.js"
     ],
