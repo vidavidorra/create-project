@@ -39,6 +39,7 @@ const schema = z
         lint: z.literal('npm run format:check && xo'),
         // eslint-disable-next-line @typescript-eslint/naming-convention
         'lint:fix': z.literal('npm run format && xo --fix'),
+        postinstall: z.string().optional(),
         prepare: z.literal('husky install .github/husky'),
         test: z.string().min(1),
       })
@@ -86,6 +87,7 @@ class Package extends File {
     };
     delete this._package.bin;
     delete this._package.dependencies;
+    delete this._package.scripts.postinstall;
     if (this._options.public) {
       delete this._package.private;
     } else {
