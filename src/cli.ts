@@ -61,7 +61,10 @@ if (options.testing) {
   });
 }
 
-options.path = await input({message: 'Output folder:'});
+options.path = await input({
+  message: 'Output folder:',
+  validate: (value) => validate(value, 'path'),
+});
 options.dryRun = await confirm({message: 'Dry run?'});
 
 const files = await createProject(schema.parse(options));
