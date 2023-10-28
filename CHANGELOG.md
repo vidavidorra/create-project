@@ -1,3 +1,9 @@
+## [1.0.4](https://github.com/vidavidorra/create-project/compare/v1.0.3...v1.0.4) (2023-10-28)
+
+### Bug Fixes
+
+- **cli:** add validation to "Output folder" question ([184933e](https://github.com/vidavidorra/create-project/commit/184933ee6b2b624b94dcafb654be541f397b13d7))
+
 ## [1.0.3](https://github.com/vidavidorra/create-project/compare/v1.0.2...v1.0.3) (2023-10-28)
 
 ### Bug Fixes
