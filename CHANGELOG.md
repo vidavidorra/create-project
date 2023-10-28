@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/vidavidorra/create-project/compare/v1.0.2...v1.0.3) (2023-10-28)
+
+### Bug Fixes
+
+- add "postinstall" script to workaround `npm install`/`npm pack` behaviour with ignorefiles ([62fce82](https://github.com/vidavidorra/create-project/commit/62fce828ac2a6b6e1d871c424a00802785f39d11))
+
 ## [1.0.2](https://github.com/vidavidorra/create-project/compare/v1.0.1...v1.0.2) (2023-10-25)
 
 ### Bug Fixes
