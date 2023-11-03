@@ -220,7 +220,7 @@
     "lint-staged": "13.3.0",
     "semantic-release": "21.0.5",
     "sinon": "15.2.0",
-    "xo": "0.55.0"
+    "xo": "0.56.0"
   },
   "engines": {
     "node": ">=18"
