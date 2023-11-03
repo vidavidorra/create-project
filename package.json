@@ -217,7 +217,7 @@
     "ava": "5.3.1",
     "c8": "8.0.1",
     "husky": "8.0.3",
-    "lint-staged": "13.2.2",
+    "lint-staged": "13.3.0",
     "semantic-release": "21.0.5",
     "sinon": "15.2.0",
     "xo": "0.55.0"
