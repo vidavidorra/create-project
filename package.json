@@ -218,7 +218,7 @@
     "c8": "8.0.1",
     "husky": "8.0.3",
     "lint-staged": "13.3.0",
-    "semantic-release": "21.0.5",
+    "semantic-release": "21.1.2",
     "sinon": "15.2.0",
     "xo": "0.55.0"
   },
