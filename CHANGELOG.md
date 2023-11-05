@@ -1,3 +1,13 @@
+## [2.0.0](https://github.com/vidavidorra/create-project/compare/v1.0.10...v2.0.0) (2023-11-05)
+
+### ⚠ BREAKING CHANGES
+
+- change `module` from `ES2022` to `Node16` in TSConfig
+
+### Bug Fixes
+
+- change `module` from `ES2022` to `Node16` in TSConfig ([c395506](https://github.com/vidavidorra/create-project/commit/c3955068b4747e01f89975456adf508494edf433))
+
 ## [1.0.10](https://github.com/vidavidorra/create-project/compare/v1.0.9...v1.0.10) (2023-11-04)
 
 ### Bug Fixes

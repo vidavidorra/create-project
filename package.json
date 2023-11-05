@@ -1,6 +1,6 @@
 {
   "name": "@vidavidorra/create-project",
-  "version": "1.0.10",
+  "version": "2.0.0",
   "private": false,
   "description": "Interactively create a GitHub project.",
   "homepage": "https://github.com/vidavidorra/create-project#readme",
