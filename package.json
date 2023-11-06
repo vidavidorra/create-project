@@ -200,7 +200,7 @@
     "sort-package-json": "2.6.0",
     "typescript": "5.2.2",
     "validate-npm-package-name": "5.0.0",
-    "yaml": "2.3.3",
+    "yaml": "2.3.4",
     "zod": "3.22.4"
   },
   "devDependencies": {
