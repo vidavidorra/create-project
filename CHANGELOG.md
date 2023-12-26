@@ -1,3 +1,13 @@
+## [2.0.3](https://github.com/vidavidorra/create-project/compare/v2.0.2...v2.0.3) (2023-12-26)
+
+### Bug Fixes
+
+- **deps:** update dependency @inquirer/prompts to v3.3.0 ([c31a152](https://github.com/vidavidorra/create-project/commit/c31a1527f839756cbd35c8034b32fd1419cf4686))
+- **deps:** update dependency prettier to v3.1.0 ([23250be](https://github.com/vidavidorra/create-project/commit/23250be21bce8578a508fb4f70e8e62600768cd1))
+- **deps:** update dependency prettier to v3.1.1 ([3a31e1c](https://github.com/vidavidorra/create-project/commit/3a31e1c717e86e6388817be22cb516532097ed66))
+- **deps:** update dependency typescript to v5.3.2 ([b04c52b](https://github.com/vidavidorra/create-project/commit/b04c52b1fd6d07992f6ef75211624bd1622a542b))
+- **deps:** update dependency typescript to v5.3.3 ([ed7af0b](https://github.com/vidavidorra/create-project/commit/ed7af0bcac8c8d8e73d839e97932bafe8ac394d4))
+
 ## [2.0.2](https://github.com/vidavidorra/create-project/compare/v2.0.1...v2.0.2) (2023-11-06)
 
 ### Bug Fixes
