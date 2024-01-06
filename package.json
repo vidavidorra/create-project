@@ -19,11 +19,11 @@
     "create-project": "./dist/cli.js"
   },
   "files": [
+    "./dist/**/!(*.test).{js,d.ts,cjs}",
     "./.editorconfig",
     "./.github/",
     "./.gitignore",
     "./.npmrc",
-    "./dist/**/!(*.test).{js,d.ts,cjs}",
     "./src/scripts/postinstall.js",
     "./LICENSE.md",
     "./tsconfig.json"
