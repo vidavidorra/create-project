@@ -1,3 +1,9 @@
+## [2.0.4](https://github.com/vidavidorra/create-project/compare/v2.0.3...v2.0.4) (2024-01-06)
+
+### Bug Fixes
+
+- cannot find module `postinstall.js` ([d39914f](https://github.com/vidavidorra/create-project/commit/d39914f8d624750d69b1d24fe9c8688309c99904)), closes [#14](https://github.com/vidavidorra/create-project/issues/14)
+
 ## [2.0.3](https://github.com/vidavidorra/create-project/compare/v2.0.2...v2.0.3) (2023-12-26)
 
 ### Bug Fixes
