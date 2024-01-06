@@ -1,3 +1,9 @@
+## [2.0.6](https://github.com/vidavidorra/create-project/compare/v2.0.5...v2.0.6) (2024-01-06)
+
+### Bug Fixes
+
+- add `keywords` to package schema ([573d93b](https://github.com/vidavidorra/create-project/commit/573d93b001e008ad3248b887e004642a7ed6eaa8))
+
 ## [2.0.5](https://github.com/vidavidorra/create-project/compare/v2.0.4...v2.0.5) (2024-01-06)
 
 ### Bug Fixes
