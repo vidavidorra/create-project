@@ -24,6 +24,9 @@ test(sets, 'author', options.author, '"author" option');
 test('does not include "bin"', (t) => {
   t.is(packageJson().bin, undefined);
 });
+test('does not include "keywords"', (t) => {
+  t.is(packageJson().keywords, undefined);
+});
 test('does not include "postinstall" script', (t) => {
   t.is(packageJson().scripts.postinstall, undefined);
 });

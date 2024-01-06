@@ -8,6 +8,7 @@ const schema = z
     name: z.string().min(1),
     version: z.string().min('0.0.0'.length),
     description: z.string(),
+    keywords: z.array(z.string()).min(1).optional(),
     private: z.boolean().optional(),
     homepage: z.string().url(),
     bugs: z
@@ -85,6 +86,7 @@ class Package extends File {
       ...this._package.devDependencies,
       ...this._package.dependencies,
     };
+    delete this._package.keywords;
     delete this._package.bin;
     delete this._package.dependencies;
     delete this._package.scripts.postinstall;
