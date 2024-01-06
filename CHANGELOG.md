@@ -1,3 +1,10 @@
+## [2.0.5](https://github.com/vidavidorra/create-project/compare/v2.0.4...v2.0.5) (2024-01-06)
+
+### Bug Fixes
+
+- add `src/scripts/postinstall.js` to package ([351a736](https://github.com/vidavidorra/create-project/commit/351a736ced8551b93b0235fedf8931115232c0c7))
+- include `dist` as first file in package `files` ([9cead05](https://github.com/vidavidorra/create-project/commit/9cead053bb80092fa6480c75cc14e39edd291a2d))
+
 ## [2.0.4](https://github.com/vidavidorra/create-project/compare/v2.0.3...v2.0.4) (2024-01-06)
 
 ### Bug Fixes
