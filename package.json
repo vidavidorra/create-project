@@ -31,7 +31,7 @@
     "build": "tsc",
     "format": "prettier --ignore-path .gitignore --write \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --log-level warn",
     "format:check": "prettier --ignore-path .gitignore --check \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --log-level warn",
-    "postinstall": "node ./dist/scripts/postinstall.js",
+    "postinstall": "node ./src/scripts/postinstall.js",
     "lint": "npm run format:check && xo",
     "lint:fix": "npm run format && xo --fix",
     "prepare": "husky install .github/husky",

@@ -4,6 +4,7 @@ import {File} from './file.js';
 import {LintStaged} from './lint-staged.js';
 import {Package} from './package.js';
 import {Readme} from './readme/index.js';
+import {TsConfig} from './ts-config.js';
 
 function files(options: Options): File[] {
   return [
@@ -18,7 +19,7 @@ function files(options: Options): File[] {
     new File('LICENSE.md', options),
     new Package('package.json', options),
     new Readme('README.md', options),
-    new File('tsconfig.json', options),
+    new TsConfig('tsconfig.json', options),
   ];
 }
 

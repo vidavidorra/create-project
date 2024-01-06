@@ -1,6 +1,8 @@
 import fs from 'node:fs';
-import {stub, match, type SinonStub, restore} from 'sinon';
+import {join} from 'node:path';
+import {stub, type SinonStub, restore} from 'sinon';
 import anyTest, {type TestFn} from 'ava';
+import rootPath from '../root-path.js';
 import {gitIgnore, npmIgnore, postinstall} from './postinstall.js';
 
 const test = anyTest as TestFn<{existsSync: SinonStub; renameSync: SinonStub}>;
@@ -10,6 +12,13 @@ test.beforeEach((t) => {
 });
 test.afterEach.always(() => {
   restore();
+});
+
+test.serial('uses ".gitignore" in the root', (t) => {
+  t.is(gitIgnore, join(rootPath, '.gitignore'));
+});
+test.serial('uses ".npmignore" in the root', (t) => {
+  t.is(npmIgnore, join(rootPath, '.npmignore'));
 });
 
 const gitToNpm = '".gitignore" to ".npmignore"';

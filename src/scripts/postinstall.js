@@ -1,9 +1,9 @@
-import {join} from 'node:path';
 import fs from 'node:fs';
 import {fileURLToPath} from 'node:url';
 import {argv} from 'node:process';
-import rootPath from '../root-path.js';
+import {join, resolve, dirname} from 'node:path';
 
+const rootPath = resolve(dirname(fileURLToPath(import.meta.url)), '../../');
 const gitIgnore = join(rootPath, '.gitignore');
 const npmIgnore = join(rootPath, '.npmignore');
 
@@ -16,7 +16,7 @@ const npmIgnore = join(rootPath, '.npmignore');
  * the file to `.npmignore`. This script simply reverts that rename if it has
  * occurred.
  */
-function postinstall(): void {
+function postinstall() {
   if (fs.existsSync(npmIgnore) && !fs.existsSync(gitIgnore)) {
     fs.renameSync(npmIgnore, gitIgnore);
   }
