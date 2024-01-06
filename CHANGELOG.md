@@ -1,3 +1,9 @@
+## [2.0.7](https://github.com/vidavidorra/create-project/compare/v2.0.6...v2.0.7) (2024-01-06)
+
+### Continuous Integration
+
+- run pre-commit tests for package and tsconfig changes ([fc176f5](https://github.com/vidavidorra/create-project/commit/fc176f562174adbd8f6e2c595af7c9e9783915aa))
+
 ## [2.0.6](https://github.com/vidavidorra/create-project/compare/v2.0.5...v2.0.6) (2024-01-06)
 
 ### Bug Fixes
