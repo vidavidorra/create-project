@@ -41,7 +41,7 @@ const schema = z
         // eslint-disable-next-line @typescript-eslint/naming-convention
         'lint:fix': z.literal('npm run format && xo --fix'),
         postinstall: z.string().optional(),
-        prepare: z.literal('husky install .github/husky'),
+        prepare: z.literal('husky .github/husky'),
         test: z.string().min(1),
       })
       .strict(),
