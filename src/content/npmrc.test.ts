@@ -5,8 +5,8 @@ import {Npmrc} from './npmrc.js';
 
 const path = '.npmrc';
 
-test('enables the "format" option', (t) => {
-  t.true(new Npmrc(path, options).options.format);
+test('disables the "format" option', (t) => {
+  t.false(new Npmrc(path, options).options.format);
 });
 
 test('disables the "read" option', (t) => {

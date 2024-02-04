@@ -3,7 +3,7 @@ import {File} from './file.js';
 
 class Npmrc extends File {
   constructor(path: string, options: Options) {
-    super(path, {...options, format: true, read: false});
+    super(path, {...options, read: false});
   }
 
   override process(): this {
