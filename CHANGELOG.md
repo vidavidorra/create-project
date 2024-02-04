@@ -1,3 +1,9 @@
+## [2.0.14](https://github.com/vidavidorra/create-project/compare/v2.0.13...v2.0.14) (2024-02-04)
+
+### Bug Fixes
+
+- include "prettier" dev-dependency for formatting ([062228b](https://github.com/vidavidorra/create-project/commit/062228b5117331e0fef67a3b6252c250508ab3c2))
+
 ## [2.0.13](https://github.com/vidavidorra/create-project/compare/v2.0.12...v2.0.13) (2024-02-04)
 
 ### Continuous Integration
