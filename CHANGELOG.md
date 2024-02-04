@@ -1,3 +1,9 @@
+## [2.0.15](https://github.com/vidavidorra/create-project/compare/v2.0.14...v2.0.15) (2024-02-04)
+
+### Bug Fixes
+
+- **deps:** update dependency husky to v9.0.10 ([e7c5890](https://github.com/vidavidorra/create-project/commit/e7c58905257178c44d460664f3726a4d9fa15535))
+
 ## [2.0.14](https://github.com/vidavidorra/create-project/compare/v2.0.13...v2.0.14) (2024-02-04)
 
 ### Bug Fixes
