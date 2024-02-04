@@ -20,6 +20,7 @@
   "type": "module",
   "exports": "./dist/index.js",
   "bin": {
+    "@vidavidorra/create-project": "./dist/cli.js",
     "create-project": "./dist/cli.js"
   },
   "files": [
