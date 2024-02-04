@@ -1,3 +1,9 @@
+## [2.0.13](https://github.com/vidavidorra/create-project/compare/v2.0.12...v2.0.13) (2024-02-04)
+
+### Continuous Integration
+
+- release dep-dependencies used in package with `fix` type ([ea48c37](https://github.com/vidavidorra/create-project/commit/ea48c3721a27ea303f67c38a25bdffb75dae4ac3))
+
 ## [2.0.12](https://github.com/vidavidorra/create-project/compare/v2.0.11...v2.0.12) (2024-02-04)
 
 ### Bug Fixes
