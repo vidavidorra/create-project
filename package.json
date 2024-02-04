@@ -27,7 +27,6 @@
     "./.editorconfig",
     "./.github/",
     "./.gitignore",
-    "./.npmrc",
     "./src/scripts/postinstall.js",
     "./LICENSE.md",
     "./tsconfig.json"

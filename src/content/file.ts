@@ -4,7 +4,7 @@ import prettier from 'prettier';
 import rootPath from '../root-path.js';
 import {type Options} from '../options.js';
 
-type FileOptions = {mode: number; format: boolean};
+type FileOptions = {mode: number; format: boolean; read: boolean};
 
 class File {
   protected _content: string;
@@ -16,8 +16,10 @@ class File {
     options: Options & Partial<FileOptions>,
   ) {
     this._directory = dirname(path);
-    this._options = {mode: 0o644, format: false, ...options};
-    this._content = fs.readFileSync(join(rootPath, path), 'utf8');
+    this._options = {mode: 0o644, format: false, read: true, ...options};
+    this._content = this._options.read
+      ? fs.readFileSync(join(rootPath, path), 'utf8')
+      : '';
   }
 
   get options() {
