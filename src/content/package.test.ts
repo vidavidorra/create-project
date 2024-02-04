@@ -102,6 +102,7 @@ const dependencies = [
   '@vidavidorra/commitlint-config',
   'husky',
   'lint-staged',
+  'prettier',
   'semantic-release',
   'xo',
 ] as const;

@@ -105,6 +105,7 @@ class Package extends File {
       '@vidavidorra/commitlint-config',
       'husky',
       'lint-staged',
+      'prettier',
       'semantic-release',
       'xo',
     ];
