@@ -1,3 +1,13 @@
+## [2.0.15-beta.1](https://github.com/vidavidorra/create-project/compare/v2.0.14...v2.0.15-beta.1) (2024-02-04)
+
+### Bug Fixes
+
+- create `.npmrc` content from code instead of copying file ([67ef524](https://github.com/vidavidorra/create-project/commit/67ef524a831b272d17d7dac14ea888ddd59b0891))
+
+### Build System
+
+- add `bin` for exact package name, allowing this to be run by `npx` ([a846886](https://github.com/vidavidorra/create-project/commit/a846886cb5cbae64473c64df42eee1f4c0f87839))
+
 ## [2.0.14](https://github.com/vidavidorra/create-project/compare/v2.0.13...v2.0.14) (2024-02-04)
 
 ### Bug Fixes
