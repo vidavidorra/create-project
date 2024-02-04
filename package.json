@@ -221,7 +221,7 @@
     "@vidavidorra/commitlint-config": "6.0.3",
     "ava": "6.1.1",
     "c8": "9.1.0",
-    "husky": "8.0.3",
+    "husky": "9.0.7",
     "lint-staged": "15.2.1",
     "semantic-release": "23.0.0",
     "sinon": "17.0.1",
