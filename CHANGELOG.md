@@ -1,3 +1,9 @@
+## [2.0.15-beta.2](https://github.com/vidavidorra/create-project/compare/v2.0.15-beta.1...v2.0.15-beta.2) (2024-02-04)
+
+### Bug Fixes
+
+- **npmrc:** disable `format` option ([515f7c8](https://github.com/vidavidorra/create-project/commit/515f7c8a8c219a058680ebcfecdba54a32cd98b6))
+
 ## [2.0.15-beta.1](https://github.com/vidavidorra/create-project/compare/v2.0.14...v2.0.15-beta.1) (2024-02-04)
 
 ### Bug Fixes
