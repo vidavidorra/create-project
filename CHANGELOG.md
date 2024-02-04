@@ -1,3 +1,9 @@
+## [2.0.12](https://github.com/vidavidorra/create-project/compare/v2.0.11...v2.0.12) (2024-02-04)
+
+### Bug Fixes
+
+- update husky to v9 ([2d5d4f7](https://github.com/vidavidorra/create-project/commit/2d5d4f7973f6acff98f6bc8e6cbfd0b5dd672f8a))
+
 ## [2.0.11](https://github.com/vidavidorra/create-project/compare/v2.0.10...v2.0.11) (2024-02-01)
 
 ### Bug Fixes
