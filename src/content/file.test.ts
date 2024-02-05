@@ -21,11 +21,28 @@ test.afterEach.always(() => {
 });
 const writeOptions = {...options, dryRun: false} as const;
 
+test.serial('defaults "format" option to "false"', (t) => {
+  t.false(new File('', options).options.format);
+});
+
+test.serial('defaults "read" option to "true"', (t) => {
+  t.true(new File('', options).options.read);
+});
+
 test.serial('reads file content on construction', (t) => {
   // eslint-disable-next-line no-new
   new File('', options);
   t.is(t.context.readFileSync.callCount, 1);
 });
+
+test.serial(
+  'does not read file content on construction without "read" option',
+  (t) => {
+    const {content} = new File('', {...options, read: false});
+    t.is(t.context.readFileSync.callCount, 0);
+    t.is(content, '');
+  },
+);
 
 test.serial('"content" contains the read file\'s content', (t) => {
   const content = "I'll see you at the beginning, friend.";

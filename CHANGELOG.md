@@ -1,3 +1,15 @@
+## [2.0.17-beta.1](https://github.com/vidavidorra/create-project/compare/v2.0.16...v2.0.17-beta.1) (2024-02-05)
+
+### Bug Fixes
+
+- create `.npmrc` content from code instead of copying file ([67ef524](https://github.com/vidavidorra/create-project/commit/67ef524a831b272d17d7dac14ea888ddd59b0891))
+- **npmrc:** disable `format` option ([515f7c8](https://github.com/vidavidorra/create-project/commit/515f7c8a8c219a058680ebcfecdba54a32cd98b6))
+- **npmrc:** remove double new line ([fd08fc0](https://github.com/vidavidorra/create-project/commit/fd08fc0681d366c5cf735a906065202c6a20967b))
+
+### Build System
+
+- add `bin` for exact package name, allowing this to be run by `npx` ([a846886](https://github.com/vidavidorra/create-project/commit/a846886cb5cbae64473c64df42eee1f4c0f87839))
+
 ## [2.0.16](https://github.com/vidavidorra/create-project/compare/v2.0.15...v2.0.16) (2024-02-05)
 
 ### Bug Fixes
@@ -9,6 +21,28 @@
 ### Bug Fixes
 
 - **deps:** update dependency husky to v9.0.10 ([e7c5890](https://github.com/vidavidorra/create-project/commit/e7c58905257178c44d460664f3726a4d9fa15535))
+
+## [2.0.15-beta.3](https://github.com/vidavidorra/create-project/compare/v2.0.15-beta.2...v2.0.15-beta.3) (2024-02-05)
+
+### Bug Fixes
+
+- **npmrc:** remove double new line ([fd08fc0](https://github.com/vidavidorra/create-project/commit/fd08fc0681d366c5cf735a906065202c6a20967b))
+
+## [2.0.15-beta.2](https://github.com/vidavidorra/create-project/compare/v2.0.15-beta.1...v2.0.15-beta.2) (2024-02-04)
+
+### Bug Fixes
+
+- **npmrc:** disable `format` option ([515f7c8](https://github.com/vidavidorra/create-project/commit/515f7c8a8c219a058680ebcfecdba54a32cd98b6))
+
+## [2.0.15-beta.1](https://github.com/vidavidorra/create-project/compare/v2.0.14...v2.0.15-beta.1) (2024-02-04)
+
+### Bug Fixes
+
+- create `.npmrc` content from code instead of copying file ([67ef524](https://github.com/vidavidorra/create-project/commit/67ef524a831b272d17d7dac14ea888ddd59b0891))
+
+### Build System
+
+- add `bin` for exact package name, allowing this to be run by `npx` ([a846886](https://github.com/vidavidorra/create-project/commit/a846886cb5cbae64473c64df42eee1f4c0f87839))
 
 ## [2.0.14](https://github.com/vidavidorra/create-project/compare/v2.0.13...v2.0.14) (2024-02-04)
 

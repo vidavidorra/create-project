@@ -2,6 +2,7 @@ import {type Options} from '../options.js';
 import {CiCd} from './ci-cd.js';
 import {File} from './file.js';
 import {LintStaged} from './lint-staged.js';
+import {Npmrc} from './npmrc.js';
 import {Package} from './package.js';
 import {Readme} from './readme/index.js';
 import {TsConfig} from './ts-config.js';
@@ -15,7 +16,7 @@ function files(options: Options): File[] {
     new File('.github/renovate.json', options),
     new File('.editorconfig', options),
     new File('.gitignore', options),
-    new File('.npmrc', options),
+    new Npmrc('.npmrc', options),
     new File('LICENSE.md', options),
     new Package('package.json', options),
     new Readme('README.md', options),
