@@ -1,3 +1,9 @@
+## [2.0.15-beta.3](https://github.com/vidavidorra/create-project/compare/v2.0.15-beta.2...v2.0.15-beta.3) (2024-02-05)
+
+### Bug Fixes
+
+- **npmrc:** remove double new line ([fd08fc0](https://github.com/vidavidorra/create-project/commit/fd08fc0681d366c5cf735a906065202c6a20967b))
+
 ## [2.0.15-beta.2](https://github.com/vidavidorra/create-project/compare/v2.0.15-beta.1...v2.0.15-beta.2) (2024-02-04)
 
 ### Bug Fixes
