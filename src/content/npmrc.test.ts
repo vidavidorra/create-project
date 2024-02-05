@@ -14,5 +14,5 @@ test('disables the "read" option', (t) => {
 });
 
 test('contains "save-exact=true"', (t) => {
-  t.is(new Npmrc(path, options).process().content, 'save-exact=true\n\n');
+  t.is(new Npmrc(path, options).process().content, 'save-exact=true\n');
 });

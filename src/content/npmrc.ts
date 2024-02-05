@@ -7,7 +7,7 @@ class Npmrc extends File {
   }
 
   override process(): this {
-    this._content = 'save-exact=true\n\n';
+    this._content = 'save-exact=true\n';
     return this;
   }
 }
