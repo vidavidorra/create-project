@@ -1,3 +1,9 @@
+## [2.0.21](https://github.com/vidavidorra/create-project/compare/v2.0.20...v2.0.21) (2024-02-09)
+
+### Bug Fixes
+
+- **deps:** update dependency semantic-release to v23.0.1 ([827012f](https://github.com/vidavidorra/create-project/commit/827012f64bafad15ca492ad399e99730234a8f15))
+
 ## [2.0.20](https://github.com/vidavidorra/create-project/compare/v2.0.19...v2.0.20) (2024-02-08)
 
 ### Bug Fixes
