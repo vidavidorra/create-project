@@ -218,7 +218,7 @@
     "@types/prettier": "2.7.3",
     "@types/sinon": "17.0.3",
     "@types/validate-npm-package-name": "4.0.2",
-    "@vidavidorra/commitlint-config": "6.0.3",
+    "@vidavidorra/commitlint-config": "6.0.5",
     "ava": "6.1.1",
     "c8": "9.1.0",
     "husky": "9.0.10",
