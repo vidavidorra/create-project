@@ -1,3 +1,13 @@
+## [2.0.26](https://github.com/vidavidorra/create-project/compare/v2.0.25...v2.0.26) (2024-02-15)
+
+### Bug Fixes
+
+- **deps:** update dependency xo to v0.57.0 ([b472f28](https://github.com/vidavidorra/create-project/commit/b472f280836f578e41a5eebd03e9cdd93ec14ea7))
+
+### Styles
+
+- rename `ctx` to `context` ([7120dfb](https://github.com/vidavidorra/create-project/commit/7120dfb3a2fad9dac17733e9a734323d2ef74fe8))
+
 ## [2.0.25](https://github.com/vidavidorra/create-project/compare/v2.0.24...v2.0.25) (2024-02-15)
 
 ### Bug Fixes
