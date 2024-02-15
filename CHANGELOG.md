@@ -1,3 +1,9 @@
+## [2.0.25](https://github.com/vidavidorra/create-project/compare/v2.0.24...v2.0.25) (2024-02-15)
+
+### Bug Fixes
+
+- **package:** change GitHub URLs for the owner and repository ([093cda4](https://github.com/vidavidorra/create-project/commit/093cda4d700fbf7502203625d055c49904ffdc25))
+
 ## [2.0.24](https://github.com/vidavidorra/create-project/compare/v2.0.23...v2.0.24) (2024-02-15)
 
 ### Bug Fixes
