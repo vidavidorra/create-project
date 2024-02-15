@@ -1,3 +1,9 @@
+## [2.0.24](https://github.com/vidavidorra/create-project/compare/v2.0.23...v2.0.24) (2024-02-15)
+
+### Bug Fixes
+
+- **deps:** update dependency @vidavidorra/commitlint-config to v6.0.5 ([caa7e31](https://github.com/vidavidorra/create-project/commit/caa7e316117caf43ec55868f01c528f57bba3c2d))
+
 ## [2.0.23](https://github.com/vidavidorra/create-project/compare/v2.0.22...v2.0.23) (2024-02-10)
 
 ### Bug Fixes
