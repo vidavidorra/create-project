@@ -20,6 +20,15 @@ const sets = test.macro<[keyof PackageJson, string, string]>({
 test(sets, 'name', options.package, '"package" option');
 test(sets, 'version', '0.1.0', '"0.1.0"');
 test(sets, 'description', options.description, '"description" option');
+const {githubOwner, githubRepository} = options;
+const url = `https://github.com/${githubOwner}/${githubRepository}`;
+test(sets, 'homepage', `${url}#readme`, 'GitHub repository readme');
+test('sets "bugs.url" to Github issues', (t) => {
+  t.is(packageJson().bugs.url, `${url}/issues`);
+});
+test('sets "repository.url" to Github repository', (t) => {
+  t.is(packageJson().repository.url, `git+${url}.git`);
+});
 test(sets, 'author', options.author, '"author" option');
 test('does not include "bin"', (t) => {
   t.is(packageJson().bin, undefined);

@@ -141,7 +141,7 @@ class Readme extends File {
     const {githubOwner: owner, githubRepository} = this._options;
     return new URL(
       path,
-      `https://github.com/${`${owner}/${repository ?? githubRepository}`}/`,
+      `https://github.com/${owner}/${repository ?? githubRepository}/`,
     ).toString();
   }
 }

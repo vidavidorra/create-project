@@ -81,6 +81,9 @@ class Package extends File {
     this._package.name = this._options.package;
     this._package.version = '0.1.0';
     this._package.description = this._options.description;
+    this._package.homepage = `${this.gitHubUrl}#readme`;
+    this._package.bugs.url = `${this.gitHubUrl}/issues`;
+    this._package.repository.url = `git+${this.gitHubUrl}.git`;
     this._package.author = this._options.author;
     this._package.devDependencies = {
       ...this._package.devDependencies,
@@ -137,6 +140,11 @@ class Package extends File {
     this._content = JSON.stringify(this._package, undefined, 2);
 
     return this;
+  }
+
+  private get gitHubUrl(): string {
+    const {githubOwner, githubRepository} = this._options;
+    return `https://github.com/${githubOwner}/${githubRepository}`;
   }
 }
 
