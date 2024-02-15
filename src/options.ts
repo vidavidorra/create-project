@@ -5,12 +5,12 @@ import validatePackageName from 'validate-npm-package-name';
 const schema = z
   .object({
     project: z.string().min(1),
-    package: z.string().superRefine((value, ctx) => {
+    package: z.string().superRefine((value, context) => {
       const {validForNewPackages, errors, warnings} =
         validatePackageName(value);
       if (!validForNewPackages) {
         for (const message of [...(errors ?? []), ...(warnings ?? [])]) {
-          ctx.addIssue({code: z.ZodIssueCode.custom, message});
+          context.addIssue({code: z.ZodIssueCode.custom, message});
         }
       }
     }),
@@ -25,11 +25,11 @@ const schema = z
     path: z
       .string()
       .min(1)
-      .superRefine((value, ctx) => {
+      .superRefine((value, context) => {
         const exists = fs.existsSync(value);
         if (exists) {
           if (!fs.statSync(value).isDirectory()) {
-            ctx.addIssue({
+            context.addIssue({
               code: z.ZodIssueCode.custom,
               message: 'Expected an empty directory, received a file.',
             });
@@ -38,7 +38,7 @@ const schema = z
 
           const {files} = fs.statfsSync(value);
           if (files !== 0) {
-            ctx.addIssue({
+            context.addIssue({
               code: z.ZodIssueCode.custom,
               message: [
                 'Expected an empty directory, received a directory with',
