@@ -1,3 +1,9 @@
+## [2.0.27](https://github.com/vidavidorra/create-project/compare/v2.0.26...v2.0.27) (2024-02-16)
+
+### Bug Fixes
+
+- **deps:** update dependency @commitlint/cli to v18.6.1 ([ddfeb97](https://github.com/vidavidorra/create-project/commit/ddfeb9724db4fcac2a73ae202da9b5bc1f61cb9b))
+
 ## [2.0.26](https://github.com/vidavidorra/create-project/compare/v2.0.25...v2.0.26) (2024-02-15)
 
 ### Bug Fixes
