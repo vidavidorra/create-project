@@ -1,3 +1,9 @@
+## [2.0.30](https://github.com/vidavidorra/create-project/compare/v2.0.29...v2.0.30) (2024-03-03)
+
+### Bug Fixes
+
+- **deps:** update dependency ava to v6.1.2 ([3329018](https://github.com/vidavidorra/create-project/commit/33290187f37bff8e4ed8abbbdc22a889497034c9))
+
 ## [2.0.29](https://github.com/vidavidorra/create-project/compare/v2.0.28...v2.0.29) (2024-02-22)
 
 ### Bug Fixes
