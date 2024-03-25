@@ -61,12 +61,12 @@ class Badge {
       },
       codeCoverage: {
         title: 'Code coverage',
-        url: `https://img.shields.io/codecov/c/github${this.gitHubRepository}?logo=codecov`,
+        url: `https://img.shields.io/codecov/c/github/${this.gitHubRepository}?logo=codecov`,
         link: `https://codecov.io/gh/${this.gitHubRepository}`,
       },
       license: {
         title: 'License',
-        url: `https://img.shields.io/github/license${this.gitHubRepository}`,
+        url: `https://img.shields.io/github/license/${this.gitHubRepository}`,
         link: `LICENSE.md`,
       },
       npmVersion: {
