@@ -1,3 +1,10 @@
+## [2.0.35](https://github.com/vidavidorra/create-project/compare/v2.0.34...v2.0.35) (2024-03-28)
+
+### Bug Fixes
+
+- **deps:** update dependency @vidavidorra/commitlint-config to v7.0.3 ([#28](https://github.com/vidavidorra/create-project/issues/28)) ([ed6ab09](https://github.com/vidavidorra/create-project/commit/ed6ab09772c636f666dfb083849f5bd518bdbc12))
+- **deps:** update dependency semantic-release to v23.0.6 ([#29](https://github.com/vidavidorra/create-project/issues/29)) ([ee0489a](https://github.com/vidavidorra/create-project/commit/ee0489a56a3e0bf06c6d94d086d180f3e5e47787))
+
 ## [2.0.34](https://github.com/vidavidorra/create-project/compare/v2.0.33...v2.0.34) (2024-03-28)
 
 ### Bug Fixes
