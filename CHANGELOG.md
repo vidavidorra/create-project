@@ -1,3 +1,34 @@
+## [2.0.34](https://github.com/vidavidorra/create-project/compare/v2.0.33...v2.0.34) (2024-03-28)
+
+### Bug Fixes
+
+- add slash in Codecov and license badges ([66f58b0](https://github.com/vidavidorra/create-project/commit/66f58b00c1b1bcc65c60d6860a6dacdc3a77db54))
+- **deps:** update dependency @commitlint/cli to v19 ([#24](https://github.com/vidavidorra/create-project/issues/24)) ([6ecc8dd](https://github.com/vidavidorra/create-project/commit/6ecc8ddd0ca5b01eff73efaa98580a97c123949f))
+- **deps:** update dependency @commitlint/cli to v19.1.0 ([d077477](https://github.com/vidavidorra/create-project/commit/d0774776daac97fe1dc602ea94b8bd2364342e1d))
+- **deps:** update dependency @commitlint/cli to v19.2.0 ([c644c52](https://github.com/vidavidorra/create-project/commit/c644c52b68f0ed1140549e073a8d88d67790b142))
+- **deps:** update dependency @commitlint/cli to v19.2.1 ([c3afcbb](https://github.com/vidavidorra/create-project/commit/c3afcbbcabe8d12873a7440a856a2982721615ac))
+- **deps:** update dependency @inquirer/prompts to v4.2.0 ([52831f9](https://github.com/vidavidorra/create-project/commit/52831f96f73b124eb4c8747f624d43f2ee3f15c9))
+- **deps:** update dependency @inquirer/prompts to v4.2.1 ([782146d](https://github.com/vidavidorra/create-project/commit/782146d6a3e9789b4d83b108d8cc6dcd7a5e5f6b))
+- **deps:** update dependency @inquirer/prompts to v4.3.0 ([3a30e2f](https://github.com/vidavidorra/create-project/commit/3a30e2f7d1744ad0dfe16e744e0cb740c7e94d39))
+- **deps:** update dependency @vidavidorra/commitlint-config to 7.0.0-beta.1 ([ce66cd0](https://github.com/vidavidorra/create-project/commit/ce66cd065049c9e6533245eecf40283797af314d))
+- **deps:** update dependency semantic-release to v23.0.3 ([6f6d3a6](https://github.com/vidavidorra/create-project/commit/6f6d3a62ce4be6244c8bb3c5acf4263de5efc9d5))
+- **deps:** update dependency semantic-release to v23.0.4 ([0f190e0](https://github.com/vidavidorra/create-project/commit/0f190e06204ed61fc68a4905b59443c0fa5513f8))
+- **deps:** update dependency semantic-release to v23.0.5 ([5d6474a](https://github.com/vidavidorra/create-project/commit/5d6474a52aeb90ed14837164015465aabd608857))
+- **deps:** update dependency typescript to v5.4.2 ([dffa99f](https://github.com/vidavidorra/create-project/commit/dffa99fae1353334fc949f1ddfc74c76b09995b9))
+- **deps:** update dependency typescript to v5.4.3 ([3834cec](https://github.com/vidavidorra/create-project/commit/3834cecdd7cfc7e8fe0655f2b9e300d11847a210))
+- **deps:** update dependency xo to v0.58.0 ([21dd2cc](https://github.com/vidavidorra/create-project/commit/21dd2ccfd6abe41aa7c93bc77f48d3decf2cff7e))
+- **deps:** update dependency yaml to v2.4.1 ([3d17d96](https://github.com/vidavidorra/create-project/commit/3d17d96ac1d8e23f3da27fd257996f9f4a6c53d4))
+- **deps:** update vidavidorra/.github action to v4.1.11 ([ca2ef57](https://github.com/vidavidorra/create-project/commit/ca2ef5706387170fb23812c2aac06142661cb142))
+- **deps:** update vidavidorra/.github action to v4.2.2 ([#27](https://github.com/vidavidorra/create-project/issues/27)) ([50673a1](https://github.com/vidavidorra/create-project/commit/50673a1b3fb3b9962176e50bf0e20bfddfa74652))
+
+### Reverts
+
+- commit "ci: temporary disable `lint-commit-messages`" ([cf0025e](https://github.com/vidavidorra/create-project/commit/cf0025efebf902f5efaf83cbcc8d01253c0151d6))
+
+### Continuous Integration
+
+- temporary disable `lint-commit-messages` ([9ff3788](https://github.com/vidavidorra/create-project/commit/9ff3788a4b2b7ba7391e97df0e52c98dcee46a3a))
+
 ## [2.0.33](https://github.com/vidavidorra/create-project/compare/v2.0.32...v2.0.33) (2024-03-03)
 
 ### Bug Fixes
