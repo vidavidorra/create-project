@@ -1,3 +1,9 @@
+## [2.0.36](https://github.com/vidavidorra/create-project/compare/v2.0.35...v2.0.36) (2024-03-29)
+
+### Bug Fixes
+
+- **deps:** update vidavidorra/.github action to v4.2.3 ([a4ae715](https://github.com/vidavidorra/create-project/commit/a4ae715f245cea66d26574af5b3ddb50f28ded8e))
+
 ## [2.0.35](https://github.com/vidavidorra/create-project/compare/v2.0.34...v2.0.35) (2024-03-28)
 
 ### Bug Fixes
