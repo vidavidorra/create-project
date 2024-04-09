@@ -1,3 +1,9 @@
+## [2.0.50](https://github.com/vidavidorra/create-project/compare/v2.0.49...v2.0.50) (2024-04-09)
+
+### Bug Fixes
+
+- **deps:** update vidavidorra/.github action to v4.2.11 ([bd0fab8](https://github.com/vidavidorra/create-project/commit/bd0fab8bd5e8488d7af97d5dcb2637cbc6ff4824))
+
 ## [2.0.49](https://github.com/vidavidorra/create-project/compare/v2.0.48...v2.0.49) (2024-04-08)
 
 ### Bug Fixes
