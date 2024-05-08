@@ -77,7 +77,7 @@ class Readme extends File {
       ].join(' ')}
 
       ${[
-        `Refer to the, [contributing guide](${contributingGuide})`,
+        `Refer to the [contributing guide](${contributingGuide})`,
         'for detailed information about other contributions, like pull',
         'requests.',
       ].join(' ')}
