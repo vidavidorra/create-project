@@ -1,3 +1,9 @@
+## [2.0.79](https://github.com/vidavidorra/create-project/compare/v2.0.78...v2.0.79) (2024-05-08)
+
+### Bug Fixes
+
+- **readme:** remove misplaced comma in contributing guide reference ([72544f6](https://github.com/vidavidorra/create-project/commit/72544f6723c51ed28a8d717794ba718b12fb5437))
+
 ## [2.0.78](https://github.com/vidavidorra/create-project/compare/v2.0.77...v2.0.78) (2024-05-06)
 
 ### Bug Fixes
