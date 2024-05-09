@@ -1,3 +1,9 @@
+## [2.0.82](https://github.com/vidavidorra/create-project/compare/v2.0.81...v2.0.82) (2024-05-09)
+
+### Bug Fixes
+
+- **deps:** update dependency @ava/typescript to v5 ([#31](https://github.com/vidavidorra/create-project/issues/31)) ([d82b8ce](https://github.com/vidavidorra/create-project/commit/d82b8ce96a11418cc69e01d7511037b3592f9660))
+
 ## [2.0.81](https://github.com/vidavidorra/create-project/compare/v2.0.80...v2.0.81) (2024-05-09)
 
 ### Bug Fixes
