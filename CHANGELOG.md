@@ -1,3 +1,9 @@
+## [2.0.83](https://github.com/vidavidorra/create-project/compare/v2.0.82...v2.0.83) (2024-05-09)
+
+### Documentation
+
+- add bullet points ([4091b02](https://github.com/vidavidorra/create-project/commit/4091b02df723c8fef118c79c6281c7bf71612994))
+
 ## [2.0.82](https://github.com/vidavidorra/create-project/compare/v2.0.81...v2.0.82) (2024-05-09)
 
 ### Bug Fixes
