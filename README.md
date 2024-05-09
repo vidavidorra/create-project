@@ -3,6 +3,11 @@
 Interactively create a project.
 
 - Standardised project and repository setup.
+- Code style using [**XO**](https://github.com/xojs/xo).
+- Code formatting using [**Prettier**](https://prettier.io/).
+- Commit style using [**`commitlint`**](https://commitlint.js.org/).
+- Version management using [**semantic-release**](https://semantic-release.gitbook.io/semantic-release/).
+- Dependency management using [**Renovate**](renovatebot.com/).
 - Add TypeScript, a testing framework and code coverage as desired.
 
 ---
