@@ -1,3 +1,9 @@
+## [2.0.85](https://github.com/vidavidorra/create-project/compare/v2.0.84...v2.0.85) (2024-05-10)
+
+### Bug Fixes
+
+- **deps:** update dependency validate-npm-package-name to v5.0.1 ([6685f96](https://github.com/vidavidorra/create-project/commit/6685f96aa795c433429d260ad07f1a3f73045d9f))
+
 ## [2.0.84](https://github.com/vidavidorra/create-project/compare/v2.0.83...v2.0.84) (2024-05-09)
 
 ### Bug Fixes
