@@ -58,6 +58,7 @@ const schema = z
       .object({access: z.literal('public')})
       .strict()
       .optional(),
+    overrides: z.record(z.unknown()).optional(),
   })
   .strict();
 
@@ -93,6 +94,7 @@ class Package extends File {
     delete this._package.bin;
     delete this._package.dependencies;
     delete this._package.scripts.postinstall;
+    delete this._package.overrides;
     if (this._options.public) {
       delete this._package.private;
     } else {
