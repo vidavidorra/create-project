@@ -1,3 +1,21 @@
+## [3.0.0](https://github.com/vidavidorra/create-project/compare/v2.0.121...v3.0.0) (2024-08-02)
+
+### ⚠ BREAKING CHANGES
+
+- Require Node.js 20 minimum.
+
+### Features
+
+- require Node.js 20 minimum ([1388894](https://github.com/vidavidorra/create-project/commit/138889465a27e3b727733595e8e24eab9c16358c))
+
+### Bug Fixes
+
+- **deps:** update dependency xo to v0.59.3 ([2a618d0](https://github.com/vidavidorra/create-project/commit/2a618d054730477bfb27170f7bca1cc6fcbe8e90))
+
+### Styles
+
+- fix "Use default import for module node:path." ([0f5cad7](https://github.com/vidavidorra/create-project/commit/0f5cad7b3e0c90cdc3808c5e5f58bbf672218fe8))
+
 ## [2.0.121](https://github.com/vidavidorra/create-project/compare/v2.0.120...v2.0.121) (2024-08-02)
 
 ### Bug Fixes
