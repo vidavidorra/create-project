@@ -53,7 +53,7 @@ const schema = z
     c8: z.record(z.unknown()).optional(),
     dependencies: z.record(z.string()).optional(),
     devDependencies: z.record(z.string()),
-    engines: z.object({node: z.literal('>=18')}).strict(),
+    engines: z.object({node: z.literal('>=20')}).strict(),
     publishConfig: z
       .object({access: z.literal('public')})
       .strict()

@@ -1,11 +1,14 @@
 import fs from 'node:fs';
 import {fileURLToPath} from 'node:url';
 import {argv} from 'node:process';
-import {join, resolve, dirname} from 'node:path';
+import path from 'node:path';
 
-const rootPath = resolve(dirname(fileURLToPath(import.meta.url)), '../../');
-const gitIgnore = join(rootPath, '.gitignore');
-const npmIgnore = join(rootPath, '.npmignore');
+const rootPath = path.resolve(
+  path.dirname(fileURLToPath(import.meta.url)),
+  '../../',
+);
+const gitIgnore = path.join(rootPath, '.gitignore');
+const npmIgnore = path.join(rootPath, '.npmignore');
 
 /**
  * Workaround for [Rename `.gitignore` to `.npmignore` in package if no
