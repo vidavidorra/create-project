@@ -4,11 +4,9 @@
   "packageRules": [
     {
       "description": "Update dep-dependencies used in package with fix type",
-      "excludePackageNames": ["sinon"],
-      "excludePackagePatterns": ["^@types/"],
       "extends": [":semanticPrefixFix"],
       "ignorePresets": [":semanticPrefixFixDepsChoreOthers"],
-      "matchPackagePatterns": ["*"]
+      "matchPackageNames": ["!sinon", "!/^@types//", "*"]
     }
   ]
 }
