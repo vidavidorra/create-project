@@ -1,3 +1,9 @@
+## [3.0.19](https://github.com/vidavidorra/create-project/compare/v3.0.18...v3.0.19) (2024-09-12)
+
+### Bug Fixes
+
+- **deps:** update dependency typescript to v5.6.2 ([2e0b74b](https://github.com/vidavidorra/create-project/commit/2e0b74be9b67e5617862999a3b2e9a64c1fa389e))
+
 ## [3.0.18](https://github.com/vidavidorra/create-project/compare/v3.0.17...v3.0.18) (2024-09-10)
 
 ### Bug Fixes
