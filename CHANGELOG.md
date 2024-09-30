@@ -1,3 +1,9 @@
+## [3.0.27](https://github.com/vidavidorra/create-project/compare/v3.0.26...v3.0.27) (2024-09-30)
+
+### Bug Fixes
+
+- **deps:** update dependency validate-npm-package-name to v6 ([#39](https://github.com/vidavidorra/create-project/issues/39)) ([11b7371](https://github.com/vidavidorra/create-project/commit/11b7371a13fb2f0fff876aaa52b237496e965920))
+
 ## [3.0.26](https://github.com/vidavidorra/create-project/compare/v3.0.25...v3.0.26) (2024-09-29)
 
 ### Bug Fixes
