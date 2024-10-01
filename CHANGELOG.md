@@ -1,3 +1,9 @@
+## [3.0.29](https://github.com/vidavidorra/create-project/compare/v3.0.28...v3.0.29) (2024-10-01)
+
+### Bug Fixes
+
+- **deps:** update dependency @vidavidorra/commitlint-config to v7.0.7 ([7567ceb](https://github.com/vidavidorra/create-project/commit/7567cebef4e8a7e5466ac07055f98ba3efd6b578))
+
 ## [3.0.28](https://github.com/vidavidorra/create-project/compare/v3.0.27...v3.0.28) (2024-10-01)
 
 ### Bug Fixes
