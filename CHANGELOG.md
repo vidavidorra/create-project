@@ -1,3 +1,9 @@
+## [3.0.54](https://github.com/vidavidorra/create-project/compare/v3.0.53...v3.0.54) (2024-11-24)
+
+### Bug Fixes
+
+- **deps:** update vidavidorra/.github action to v5.0.6 ([b41c875](https://github.com/vidavidorra/create-project/commit/b41c87530cbcc4177cd95fee173c4e99addb0cac))
+
 ## [3.0.53](https://github.com/vidavidorra/create-project/compare/v3.0.52...v3.0.53) (2024-11-23)
 
 ### Bug Fixes
