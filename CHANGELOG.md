@@ -1,3 +1,9 @@
+## [3.0.58](https://github.com/vidavidorra/create-project/compare/v3.0.57...v3.0.58) (2024-11-29)
+
+### Bug Fixes
+
+- **deps:** update dependency prettier to v3.4.0 ([115d9b7](https://github.com/vidavidorra/create-project/commit/115d9b7849ae3bc72368c23b216dc0b787624e7e))
+
 ## [3.0.57](https://github.com/vidavidorra/create-project/compare/v3.0.56...v3.0.57) (2024-11-26)
 
 ### Bug Fixes
