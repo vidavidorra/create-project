@@ -1,3 +1,9 @@
+## [3.0.66](https://github.com/vidavidorra/create-project/compare/v3.0.65...v3.0.66) (2024-12-13)
+
+### Bug Fixes
+
+- **deps:** update dependency c8 to v10.1.3 ([fb02af9](https://github.com/vidavidorra/create-project/commit/fb02af92c35c3f802fcfa72fc44e7fb1b1ceecec))
+
 ## [3.0.65](https://github.com/vidavidorra/create-project/compare/v3.0.64...v3.0.65) (2024-12-13)
 
 ### Bug Fixes
