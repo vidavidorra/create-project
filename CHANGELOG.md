@@ -1,3 +1,9 @@
+## [3.0.81](https://github.com/vidavidorra/create-project/compare/v3.0.80...v3.0.81) (2025-01-16)
+
+### Bug Fixes
+
+- **deps:** update dependency sort-package-json to v2.13.0 ([ccdadec](https://github.com/vidavidorra/create-project/commit/ccdadec79dcebaae0cc36ddcdd30a4db3b065fc6))
+
 ## [3.0.80](https://github.com/vidavidorra/create-project/compare/v3.0.79...v3.0.80) (2025-01-15)
 
 ### Bug Fixes
