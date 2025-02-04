@@ -1,3 +1,9 @@
+## [3.0.94](https://github.com/vidavidorra/create-project/compare/v3.0.93...v3.0.94) (2025-02-04)
+
+### Bug Fixes
+
+- **deps:** update dependency @semantic-release/exec to v7 ([#43](https://github.com/vidavidorra/create-project/issues/43)) ([a06996f](https://github.com/vidavidorra/create-project/commit/a06996f4674c0cdbfe07302399281b03b0dbd9c7))
+
 ## [3.0.93](https://github.com/vidavidorra/create-project/compare/v3.0.92...v3.0.93) (2025-02-03)
 
 ### Bug Fixes
