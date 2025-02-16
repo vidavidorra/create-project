@@ -201,7 +201,7 @@
   },
   "dependencies": {
     "@inquirer/prompts": "7.3.1",
-    "prettier": "3.5.0",
+    "prettier": "3.5.1",
     "sort-package-json": "2.14.0",
     "typescript": "5.7.3",
     "validate-npm-package-name": "6.0.0",
