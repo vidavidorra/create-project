@@ -1,6 +1,6 @@
 {
   "name": "@vidavidorra/create-project",
-  "version": "3.0.105",
+  "version": "3.0.106",
   "private": false,
   "description": "Interactively create a GitHub project",
   "keywords": [
