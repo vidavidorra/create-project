@@ -1,3 +1,9 @@
+## [3.0.118](https://github.com/vidavidorra/create-project/compare/v3.0.117...v3.0.118) (2025-03-15)
+
+### Bug Fixes
+
+- **deps:** update dependency lint-staged to v15.5.0 ([0ac2e75](https://github.com/vidavidorra/create-project/commit/0ac2e753fb3d1138151dea3513d5dc0517db2a37))
+
 ## [3.0.117](https://github.com/vidavidorra/create-project/compare/v3.0.116...v3.0.117) (2025-03-11)
 
 ### Bug Fixes
