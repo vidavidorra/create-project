@@ -200,7 +200,7 @@
     ]
   },
   "dependencies": {
-    "@inquirer/prompts": "7.3.3",
+    "@inquirer/prompts": "7.4.0",
     "prettier": "3.5.3",
     "sort-package-json": "3.0.0",
     "typescript": "5.8.2",
