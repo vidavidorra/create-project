@@ -1,3 +1,9 @@
+## [3.0.149](https://github.com/vidavidorra/create-project/compare/v3.0.148...v3.0.149) (2025-05-18)
+
+### Bug Fixes
+
+- **deps:** update dependency yaml to v2.8.0 ([e008d3e](https://github.com/vidavidorra/create-project/commit/e008d3e74ad8fdaa68cb5d13c243fdd498c69c2f))
+
 ## [3.0.148](https://github.com/vidavidorra/create-project/compare/v3.0.147...v3.0.148) (2025-05-14)
 
 ### Bug Fixes
