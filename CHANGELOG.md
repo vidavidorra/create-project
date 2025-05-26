@@ -1,3 +1,9 @@
+## [3.0.156](https://github.com/vidavidorra/create-project/compare/v3.0.155...v3.0.156) (2025-05-26)
+
+### Bug Fixes
+
+- **deps:** update vidavidorra/.github action to v5.0.38 ([69bd6e4](https://github.com/vidavidorra/create-project/commit/69bd6e4bf45381dba8c8cf8d17f7ff4fa14f3aa6))
+
 ## [3.0.155](https://github.com/vidavidorra/create-project/compare/v3.0.154...v3.0.155) (2025-05-26)
 
 ### Bug Fixes
