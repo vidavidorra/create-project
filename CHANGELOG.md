@@ -1,3 +1,14 @@
+## [3.0.169](https://github.com/vidavidorra/create-project/compare/v3.0.168...v3.0.169) (2025-06-02)
+
+### Bug Fixes
+
+- **deps:** update dependency xo to v1 ([f51b45b](https://github.com/vidavidorra/create-project/commit/f51b45bacdd6ba9eba9181b42bd20d0d7679d922))
+- optimise writing the files, by writing them asynchronously ([1932f14](https://github.com/vidavidorra/create-project/commit/1932f14843112943ae3a20c79e221906eca0cc27))
+
+### Code Refactoring
+
+- **ci-cd:** type the input ci-cd deeply partial instead of using Zod's deprecated `deepPartial` ([e0a3ac0](https://github.com/vidavidorra/create-project/commit/e0a3ac0c29c57d12dfd4784c7532f48de0044314))
+
 ## [3.0.168](https://github.com/vidavidorra/create-project/compare/v3.0.167...v3.0.168) (2025-05-31)
 
 ### Bug Fixes
