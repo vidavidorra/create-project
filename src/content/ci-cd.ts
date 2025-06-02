@@ -63,6 +63,9 @@ const schema = z
 
 type Yaml = z.infer<typeof schema>;
 
+type DeepPartial<T> =
+  T extends Record<string, unknown> ? {[K in keyof T]?: DeepPartial<T[K]>} : T;
+
 class CiCd extends File {
   protected readonly _yaml: Yaml;
 
@@ -72,7 +75,7 @@ class CiCd extends File {
   }
 
   override process(): this {
-    const data = schema.deepPartial().parse(this._yaml);
+    const data: DeepPartial<Yaml> = schema.parse(this._yaml);
     const removeFromRelease: Array<Yaml['jobs']['release']['needs'][number]> =
       [];
 
