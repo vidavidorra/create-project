@@ -1,3 +1,9 @@
+## [3.0.170](https://github.com/vidavidorra/create-project/compare/v3.0.169...v3.0.170) (2025-06-02)
+
+### Code Refactoring
+
+- **ci-cd:** simplify `removeFromRelease` type ([3c0b416](https://github.com/vidavidorra/create-project/commit/3c0b416f3f652f526f45ed6f23897d2dd12a2db2))
+
 ## [3.0.169](https://github.com/vidavidorra/create-project/compare/v3.0.168...v3.0.169) (2025-06-02)
 
 ### Bug Fixes
