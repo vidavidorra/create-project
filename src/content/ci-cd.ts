@@ -76,8 +76,7 @@ class CiCd extends File {
 
   override process(): this {
     const data: DeepPartial<Yaml> = schema.parse(this._yaml);
-    const removeFromRelease: Array<Yaml['jobs']['release']['needs'][number]> =
-      [];
+    const removeFromRelease: Yaml['jobs']['release']['needs'] = [];
 
     if (!this._options.typescript) {
       delete data.jobs?.build;
