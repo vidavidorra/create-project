@@ -1,3 +1,9 @@
+## [3.0.174](https://github.com/vidavidorra/create-project/compare/v3.0.173...v3.0.174) (2025-06-03)
+
+### Bug Fixes
+
+- **deps:** update dependency xo to v1.0.5 ([d1c2e0a](https://github.com/vidavidorra/create-project/commit/d1c2e0a76a69c21c0b21f08fa661cd310f6c01fe))
+
 ## [3.0.173](https://github.com/vidavidorra/create-project/compare/v3.0.172...v3.0.173) (2025-06-03)
 
 ### Bug Fixes
