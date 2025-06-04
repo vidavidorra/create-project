@@ -206,7 +206,7 @@
     "typescript": "5.8.3",
     "validate-npm-package-name": "6.0.0",
     "yaml": "2.8.0",
-    "zod": "3.25.42"
+    "zod": "3.25.46"
   },
   "devDependencies": {
     "@ava/typescript": "5.0.0",
