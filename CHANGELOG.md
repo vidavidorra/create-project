@@ -1,3 +1,9 @@
+## [3.0.204](https://github.com/vidavidorra/create-project/compare/v3.0.203...v3.0.204) (2025-06-21)
+
+### Bug Fixes
+
+- **deps:** update dependency @ava/typescript to v6 ([8ed2138](https://github.com/vidavidorra/create-project/commit/8ed213868498b3dda56f55c067d8f41c68cd1caf))
+
 ## [3.0.203](https://github.com/vidavidorra/create-project/compare/v3.0.202...v3.0.203) (2025-06-20)
 
 ### Bug Fixes
