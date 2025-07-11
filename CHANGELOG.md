@@ -1,3 +1,9 @@
+## [3.0.222](https://github.com/vidavidorra/create-project/compare/v3.0.221...v3.0.222) (2025-07-11)
+
+### Bug Fixes
+
+- **deps:** update dependency zod to v3.25.76 ([cdd9021](https://github.com/vidavidorra/create-project/commit/cdd9021cda5cc802584ae6f8d164ac309f09d7a0))
+
 ## [3.0.221](https://github.com/vidavidorra/create-project/compare/v3.0.220...v3.0.221) (2025-07-11)
 
 ### Bug Fixes
