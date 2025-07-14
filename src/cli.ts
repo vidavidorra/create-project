@@ -56,7 +56,7 @@ if (options.typescript) {
 
 if (options.testing) {
   options.reportCodeCoverage = await confirm({
-    message: 'Report code coverate to Codecov?',
+    message: 'Report code coverage to Codecov?',
   });
 }
 
