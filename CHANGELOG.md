@@ -1,3 +1,10 @@
+## [3.0.225](https://github.com/vidavidorra/create-project/compare/v3.0.224...v3.0.225) (2025-07-14)
+
+### Bug Fixes
+
+- **deps:** update dependency zod to v4 ([#51](https://github.com/vidavidorra/create-project/issues/51)) ([153ed4f](https://github.com/vidavidorra/create-project/commit/153ed4fb6c94afb1c33bc6b72e8b543ad420d68f))
+- typo `coverate` > `coverage` ([a316f08](https://github.com/vidavidorra/create-project/commit/a316f08a9fdbcb5b1f43b5f53227115f24076f1b))
+
 ## [3.0.224](https://github.com/vidavidorra/create-project/compare/v3.0.223...v3.0.224) (2025-07-14)
 
 ### Bug Fixes
