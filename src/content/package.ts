@@ -3,64 +3,48 @@ import {sortPackageJson} from 'sort-package-json';
 import {type Options} from '../options.js';
 import {File} from './file.js';
 
-const schema = z
-  .object({
-    name: z.string().min(1),
-    version: z.string().min('0.0.0'.length),
-    description: z.string(),
-    keywords: z.array(z.string()).min(1).optional(),
-    private: z.boolean().optional(),
-    homepage: z.string().url(),
-    bugs: z
-      .object({
-        url: z.string().url(),
-      })
-      .strict(),
-    repository: z
-      .object({
-        type: z.literal('git'),
-        url: z.string().url(),
-      })
-      .strict(),
-    license: z.literal('GPL-3.0-or-later'),
-    author: z.string().min(1),
-    type: z.literal('module'),
-    exports: z.string().min(1).optional(),
-    bin: z.record(z.unknown()).optional(),
-    files: z
-      .tuple([z.literal('./dist/**/!(*.test).{js,d.ts,cjs}')])
-      .rest(z.string().min(1))
-      .optional(),
-    scripts: z
-      .object({
-        build: z.string().min(1),
-        format: z.string().startsWith('prettier'),
-        // eslint-disable-next-line @typescript-eslint/naming-convention
-        'format:check': z.string().startsWith('prettier'),
-        lint: z.literal('npm run format:check && xo'),
-        // eslint-disable-next-line @typescript-eslint/naming-convention
-        'lint:fix': z.literal('npm run format && xo --fix'),
-        postinstall: z.string().optional(),
-        prepare: z.literal('husky .github/husky'),
-        test: z.string().min(1),
-      })
-      .strict(),
-    commitlint: z.record(z.unknown()),
-    xo: z.record(z.unknown()),
-    prettier: z.record(z.unknown()),
-    release: z.record(z.unknown()),
-    ava: z.record(z.unknown()).optional(),
-    c8: z.record(z.unknown()).optional(),
-    dependencies: z.record(z.string()).optional(),
-    devDependencies: z.record(z.string()),
-    engines: z.object({node: z.literal('>=20')}).strict(),
-    publishConfig: z
-      .object({access: z.literal('public')})
-      .strict()
-      .optional(),
-    overrides: z.record(z.unknown()).optional(),
-  })
-  .strict();
+const schema = z.strictObject({
+  name: z.string().min(1),
+  version: z.string().min('0.0.0'.length),
+  description: z.string(),
+  keywords: z.array(z.string()).min(1).optional(),
+  private: z.boolean().optional(),
+  homepage: z.url(),
+  bugs: z.strictObject({url: z.url()}),
+  repository: z.strictObject({type: z.literal('git'), url: z.url()}),
+  license: z.literal('GPL-3.0-or-later'),
+  author: z.string().min(1),
+  type: z.literal('module'),
+  exports: z.string().min(1).optional(),
+  bin: z.record(z.string(), z.unknown()).optional(),
+  files: z
+    .tuple([z.literal('./dist/**/!(*.test).{js,d.ts,cjs}')])
+    .rest(z.string().min(1))
+    .optional(),
+  scripts: z.strictObject({
+    build: z.string().min(1),
+    format: z.string().startsWith('prettier'),
+    // eslint-disable-next-line @typescript-eslint/naming-convention
+    'format:check': z.string().startsWith('prettier'),
+    lint: z.literal('npm run format:check && xo'),
+    // eslint-disable-next-line @typescript-eslint/naming-convention
+    'lint:fix': z.literal('npm run format && xo --fix'),
+    postinstall: z.string().optional(),
+    prepare: z.literal('husky .github/husky'),
+    test: z.string().min(1),
+  }),
+  commitlint: z.record(z.string(), z.unknown()),
+  xo: z.record(z.string(), z.unknown()),
+  prettier: z.record(z.string(), z.unknown()),
+  release: z.record(z.string(), z.unknown()),
+  ava: z.record(z.string(), z.unknown()).optional(),
+  c8: z.record(z.string(), z.unknown()).optional(),
+  dependencies: z.record(z.string(), z.string()).optional(),
+  devDependencies: z.record(z.string(), z.string()),
+  engines: z.strictObject({node: z.literal('>=20')}),
+  publishConfig: z.strictObject({access: z.literal('public')}).optional(),
+  overrides: z.record(z.string(), z.unknown()).optional(),
+});
 
 type PackageJson = z.infer<typeof schema>;
 

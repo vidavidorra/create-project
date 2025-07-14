@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 
 import {input, confirm} from '@inquirer/prompts';
+import z from 'zod';
 import {createProject, type Options, options as schema} from './index.js';
 
 function validate(value: unknown, option: keyof Options): true | string {
-  const validation = schema.shape[option].safeParse(value);
-  return validation.success
-    ? true
-    : validation.error.errors.map(({message}) => message).join('\n> ');
+  const {success, error} = schema.shape[option].safeParse(value);
+  return success ? true : z.prettifyError(error);
 }
 
 const project = await input({
@@ -26,7 +25,7 @@ const options: Partial<Options> = {
   }),
   public: await confirm({
     message: 'Make package public?',
-    default: schema.shape.public._def.defaultValue(),
+    default: schema.shape.public.def.defaultValue,
   }),
   description: await input({
     message: 'Description:',
