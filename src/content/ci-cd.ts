@@ -11,55 +11,51 @@ const job = (action: string) =>
       .regex(/.*?@[\da-f]{6,64}$/),
   });
 
-const schema = z
-  .object({
-    name: z.literal('CI/CD'),
-    on: z.object({
-      push: z.object({
-        branches: z.tuple([
-          z.literal('main'),
-          z.literal('beta'),
-          z.literal('renovate/**'),
-        ]),
-      }),
-      // eslint-disable-next-line @typescript-eslint/naming-convention
-      pull_request: z.null(),
+const schema = z.strictObject({
+  name: z.literal('CI/CD'),
+  on: z.object({
+    push: z.object({
+      branches: z.tuple([
+        z.literal('main'),
+        z.literal('beta'),
+        z.literal('renovate/**'),
+      ]),
     }),
-    jobs: z
-      .object({
-        'lint-commit-messages': job('lint-commit-messages.yml'),
-        lint: job('node-lint.yml'),
-        build: job('node-build.yml'),
-        test: job('node-test.yml'),
-        'code-coverage': job('node-test-coverage.yml').extend({
-          needs: z.tuple([
+    // eslint-disable-next-line @typescript-eslint/naming-convention
+    pull_request: z.null(),
+  }),
+  jobs: z.strictObject({
+    'lint-commit-messages': job('lint-commit-messages.yml'),
+    lint: job('node-lint.yml'),
+    build: job('node-build.yml'),
+    test: job('node-test.yml'),
+    'code-coverage': job('node-test-coverage.yml').extend({
+      needs: z.tuple([
+        z.literal('lint'),
+        z.literal('build'),
+        z.literal('test'),
+      ]),
+      secrets: z.object({codecovToken: z.string()}),
+    }),
+    release: job('release.yml').extend({
+      needs: z
+        .array(
+          z.union([
+            z.literal('lint-commit-messages'),
             z.literal('lint'),
             z.literal('build'),
             z.literal('test'),
+            z.literal('code-coverage'),
           ]),
-          secrets: z.object({codecovToken: z.string()}),
-        }),
-        release: job('release.yml').extend({
-          needs: z
-            .array(
-              z.union([
-                z.literal('lint-commit-messages'),
-                z.literal('lint'),
-                z.literal('build'),
-                z.literal('test'),
-                z.literal('code-coverage'),
-              ]),
-            )
-            .length(5),
-          secrets: z.object({
-            privateKey: z.string(),
-            npmToken: z.string(),
-          }),
-        }),
-      })
-      .strict(),
-  })
-  .strict();
+        )
+        .length(5),
+      secrets: z.object({
+        privateKey: z.string(),
+        npmToken: z.string(),
+      }),
+    }),
+  }),
+});
 
 type Yaml = z.infer<typeof schema>;
 

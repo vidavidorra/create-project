@@ -20,12 +20,15 @@ const succeeds = test.macro<[Key, Value | undefined, string]>({
   title: (_, key, _0, detail) => `succeeds parsing with ${detail} "${key}"`,
 });
 
+class ZodError extends z.ZodError {}
+
 const fails = test.macro<[Key, Value | undefined, string]>({
   exec(t, key, value) {
     const error = t.throws(() => schema.shape[key].parse(value), {
-      instanceOf: z.ZodError,
+      instanceOf: ZodError,
     });
-    t.is(error?.errors.length, 1);
+
+    t.is(error.issues.length, 1);
   },
   title: (_, key, _0, detail) => `fails parsing with ${detail} "${key}"`,
 });

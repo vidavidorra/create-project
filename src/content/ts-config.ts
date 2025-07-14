@@ -2,16 +2,10 @@ import {z} from 'zod';
 import {type Options} from '../options.js';
 import {File} from './file.js';
 
-const schema = z
-  .object({
-    compilerOptions: z
-      .object({
-        allowJs: z.boolean().optional(),
-      })
-      .passthrough(),
-    include: z.array(z.string()).min(1),
-  })
-  .strict();
+const schema = z.strictObject({
+  compilerOptions: z.looseObject({allowJs: z.boolean().optional()}),
+  include: z.array(z.string()).min(1),
+});
 
 type TsConfigJson = z.infer<typeof schema>;
 

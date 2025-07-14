@@ -3,14 +3,19 @@ import {z} from 'zod';
 import validatePackageName from 'validate-npm-package-name';
 
 const schema = z
-  .object({
+  .strictObject({
     project: z.string().min(1),
-    package: z.string().superRefine((value, context) => {
-      const {validForNewPackages, errors, warnings} =
-        validatePackageName(value);
+    package: z.string().check((context) => {
+      const {validForNewPackages, errors, warnings} = validatePackageName(
+        context.value,
+      );
       if (!validForNewPackages) {
         for (const message of [...(errors ?? []), ...(warnings ?? [])]) {
-          context.addIssue({code: z.ZodIssueCode.custom, message});
+          context.issues.push({
+            code: 'custom',
+            message,
+            input: context.value,
+          });
         }
       }
     }),
@@ -25,32 +30,34 @@ const schema = z
     path: z
       .string()
       .min(1)
-      .superRefine((value, context) => {
-        const exists = fs.existsSync(value);
+      .check((context) => {
+        const exists = fs.existsSync(context.value);
         if (exists) {
-          if (!fs.statSync(value).isDirectory()) {
-            context.addIssue({
-              code: z.ZodIssueCode.custom,
+          if (!fs.statSync(context.value).isDirectory()) {
+            context.issues.push({
+              code: 'custom',
               message: 'Expected an empty directory, received a file.',
+              input: context.value,
             });
             return z.NEVER;
           }
 
-          const {files} = fs.statfsSync(value);
+          const {files} = fs.statfsSync(context.value);
           if (files !== 0) {
-            context.addIssue({
-              code: z.ZodIssueCode.custom,
+            context.issues.push({
+              code: 'custom',
               message: [
                 'Expected an empty directory, received a directory with',
                 `${files} file${files === 1 ? '' : 's'}.`,
               ].join(' '),
+              input: context.value,
             });
           }
         }
       }),
     dryRun: z.boolean().default(false),
   })
-  .strict();
+  .strict(); // @todo Remove this
 
 type OptionsInput = z.input<typeof schema>;
 type Options = z.infer<typeof schema>;
