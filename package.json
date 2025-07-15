@@ -177,7 +177,6 @@
   },
   "ava": {
     "files": [
-      "!worktrees",
       "src/**/*.test.ts"
     ],
     "typescript": {
