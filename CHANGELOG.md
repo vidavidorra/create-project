@@ -1,3 +1,9 @@
+## [3.0.227](https://github.com/vidavidorra/create-project/compare/v3.0.226...v3.0.227) (2025-07-15)
+
+### Bug Fixes
+
+- remove `worktrees` from files ignored in tests ([6b69ea6](https://github.com/vidavidorra/create-project/commit/6b69ea692edc5200f06e1e41e81d27e9d81450f9))
+
 ## [3.0.226](https://github.com/vidavidorra/create-project/compare/v3.0.225...v3.0.226) (2025-07-15)
 
 ### Bug Fixes
