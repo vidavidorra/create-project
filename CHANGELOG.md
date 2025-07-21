@@ -1,3 +1,9 @@
+## [3.0.232](https://github.com/vidavidorra/create-project/compare/v3.0.231...v3.0.232) (2025-07-21)
+
+### Bug Fixes
+
+- **package:** remove explicit prettier ignore path for `.gitignore` ([98b03d8](https://github.com/vidavidorra/create-project/commit/98b03d8450d64af77949ac3684eabf1863370a57))
+
 ## [3.0.231](https://github.com/vidavidorra/create-project/compare/v3.0.230...v3.0.231) (2025-07-20)
 
 ### Bug Fixes
