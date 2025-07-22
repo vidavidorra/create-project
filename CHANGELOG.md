@@ -1,3 +1,9 @@
+## [3.0.233](https://github.com/vidavidorra/create-project/compare/v3.0.232...v3.0.233) (2025-07-22)
+
+### Bug Fixes
+
+- **deps:** update dependency xo to v1.2.1 ([c79fffa](https://github.com/vidavidorra/create-project/commit/c79fffae7431a736b14eddaf821659d3e6eea589))
+
 ## [3.0.232](https://github.com/vidavidorra/create-project/compare/v3.0.231...v3.0.232) (2025-07-21)
 
 ### Bug Fixes
