@@ -1,3 +1,14 @@
+## [4.0.0](https://github.com/vidavidorra/create-project/compare/v3.0.261...v4.0.0) (2025-08-19)
+
+### ⚠ BREAKING CHANGES
+
+- require Node.js 22 minimum, which is the current active LTS
+
+### Features
+
+- change TSConfig target from `ES2022` to `es2024` and the module from `Node16` to `node20` ([a128302](https://github.com/vidavidorra/create-project/commit/a128302043ff95cb5b4e65152ebe619a25178b69))
+- require Node.js 22 minimum, which is the current active LTS ([eedcb3c](https://github.com/vidavidorra/create-project/commit/eedcb3c9aa81eeed01ad317a014fe6c71fcf50f5))
+
 ## [3.0.261](https://github.com/vidavidorra/create-project/compare/v3.0.260...v3.0.261) (2025-08-18)
 
 ### Bug Fixes
