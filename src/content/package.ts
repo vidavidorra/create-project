@@ -41,7 +41,7 @@ const schema = z.strictObject({
   c8: z.record(z.string(), z.unknown()).optional(),
   dependencies: z.record(z.string(), z.string()).optional(),
   devDependencies: z.record(z.string(), z.string()),
-  engines: z.strictObject({node: z.literal('>=20')}),
+  engines: z.strictObject({node: z.literal('>=22')}),
   publishConfig: z.strictObject({access: z.literal('public')}).optional(),
   overrides: z.record(z.string(), z.unknown()).optional(),
 });
