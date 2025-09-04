@@ -1,3 +1,9 @@
+## [4.0.10](https://github.com/vidavidorra/create-project/compare/v4.0.9...v4.0.10) (2025-09-04)
+
+### Bug Fixes
+
+- **deps:** update dependency lint-staged to v16.1.6 ([9d797cc](https://github.com/vidavidorra/create-project/commit/9d797cc2d69a98dfd5e196ef4086951fe45e1e73))
+
 ## [4.0.9](https://github.com/vidavidorra/create-project/compare/v4.0.8...v4.0.9) (2025-09-04)
 
 ### Bug Fixes
