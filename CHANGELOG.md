@@ -1,3 +1,9 @@
+## [4.0.18](https://github.com/vidavidorra/create-project/compare/v4.0.17...v4.0.18) (2025-09-17)
+
+### Bug Fixes
+
+- **deps:** update dependency @inquirer/prompts to v7.8.6 ([6cafb4f](https://github.com/vidavidorra/create-project/commit/6cafb4f9b10fafb47bf62ca336a9937118dcc114))
+
 ## [4.0.17](https://github.com/vidavidorra/create-project/compare/v4.0.16...v4.0.17) (2025-09-16)
 
 ### Bug Fixes
