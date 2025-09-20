@@ -213,7 +213,7 @@
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/exec": "7.1.0",
     "@semantic-release/git": "10.0.1",
-    "@types/node": "22.18.4",
+    "@types/node": "22.18.5",
     "@types/sinon": "17.0.4",
     "@types/validate-npm-package-name": "4.0.2",
     "@vidavidorra/commitlint-config": "7.0.16",
