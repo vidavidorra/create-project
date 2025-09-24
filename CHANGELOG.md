@@ -1,3 +1,9 @@
+## [4.0.24](https://github.com/vidavidorra/create-project/compare/v4.0.23...v4.0.24) (2025-09-24)
+
+### Bug Fixes
+
+- **deps:** update dependency zod to v4.1.11 ([8b1c6ed](https://github.com/vidavidorra/create-project/commit/8b1c6ed52a16b5500dbd20346946f293913abf32))
+
 ## [4.0.23](https://github.com/vidavidorra/create-project/compare/v4.0.22...v4.0.23) (2025-09-23)
 
 ### Bug Fixes
