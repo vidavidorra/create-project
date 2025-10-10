@@ -1,3 +1,9 @@
+## [4.0.35](https://github.com/vidavidorra/create-project/compare/v4.0.34...v4.0.35) (2025-10-10)
+
+### Bug Fixes
+
+- **deps:** update dependency xo to v1.2.3 ([2ef034d](https://github.com/vidavidorra/create-project/commit/2ef034d76d22d246b90197e8452921c9c9e6c7dc))
+
 ## [4.0.34](https://github.com/vidavidorra/create-project/compare/v4.0.33...v4.0.34) (2025-10-09)
 
 ### Bug Fixes
