@@ -6,6 +6,11 @@ on:
       - beta
       - renovate/**
   pull_request: null
+permissions:
+  contents: write
+  id-token: write
+  issues: write
+  pull-requests: write
 jobs:
   lint-commit-messages:
     uses: vidavidorra/.github/.github/workflows/lint-commit-messages.yml@92bfe7c46427ecb903c20d987b22c7bbe9c29f05 # v6.0.16
@@ -16,13 +21,11 @@ jobs:
   test:
     uses: vidavidorra/.github/.github/workflows/node-test.yml@92bfe7c46427ecb903c20d987b22c7bbe9c29f05 # v6.0.16
   code-coverage:
-    uses: vidavidorra/.github/.github/workflows/node-test-coverage.yml@92bfe7c46427ecb903c20d987b22c7bbe9c29f05 # v6.0.16
+    uses: vidavidorra/.github/.github/workflows/node-test-coverage.yml@660c2c3981334f4690d43df8555eac326705bd13 # v8.0.0-beta.1
     needs:
       - lint
       - build
       - test
-    secrets:
-      codecovToken: ${{ secrets.CODECOV_TOKEN }}
   release:
     uses: vidavidorra/.github/.github/workflows/release.yml@92bfe7c46427ecb903c20d987b22c7bbe9c29f05 # v6.0.16
     needs:
@@ -33,4 +36,3 @@ jobs:
       - code-coverage
     secrets:
       privateKey: ${{ secrets.RELEASE_PRIVATE_KEY }}
-      npmToken: ${{ secrets.NPM_PUBLISH_TOKEN }}

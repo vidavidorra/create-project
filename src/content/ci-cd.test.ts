@@ -45,8 +45,17 @@ test(includes, true, 'code-coverage:', 'reportCodeCoverage');
 test(includes, true, '- code-coverage', 'reportCodeCoverage');
 test(includes, false, 'code-coverage:', 'reportCodeCoverage');
 test(includes, false, '- code-coverage', 'reportCodeCoverage');
-test(includes, true, 'secrets.NPM_PUBLISH_TOKEN', 'public');
-test(includes, false, 'secrets.NPM_PUBLISH_TOKEN', 'public');
+test(includes, true, 'id-token: write', 'public');
+test(includes, true, 'id-token: write', 'reportCodeCoverage');
+
+test('does not include "id-token: write" without the"public" and "reportCodeCoverage" options', (t) => {
+  const file = new CiCd(path, {
+    ...options,
+    public: false,
+    reportCodeCoverage: false,
+  }).process();
+  t.false(file.content.includes('id-token: write'));
+});
 
 type Version = 'none' | 'invalid';
 class CiCdTest extends CiCd {
