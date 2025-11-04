@@ -24,6 +24,12 @@ const schema = z.strictObject({
     // eslint-disable-next-line @typescript-eslint/naming-convention
     pull_request: z.null(),
   }),
+  permissions: z.strictObject({
+    contents: z.literal('write'),
+    'id-token': z.literal('write'),
+    issues: z.literal('write'),
+    'pull-requests': z.literal('write'),
+  }),
   jobs: z.strictObject({
     'lint-commit-messages': job('lint-commit-messages.yml'),
     lint: job('node-lint.yml'),
@@ -35,7 +41,6 @@ const schema = z.strictObject({
         z.literal('build'),
         z.literal('test'),
       ]),
-      secrets: z.object({codecovToken: z.string()}),
     }),
     release: job('release.yml').extend({
       needs: z
@@ -49,9 +54,8 @@ const schema = z.strictObject({
           ]),
         )
         .length(5),
-      secrets: z.object({
+      secrets: z.strictObject({
         privateKey: z.string(),
-        npmToken: z.string(),
       }),
     }),
   }),
@@ -99,8 +103,8 @@ class CiCd extends File {
       );
     }
 
-    if (!this._options.public) {
-      delete data.jobs?.release?.secrets?.npmToken;
+    if (!this._options.public && !this._options.reportCodeCoverage) {
+      delete data.permissions?.['id-token'];
     }
 
     const {sha, version} = this;

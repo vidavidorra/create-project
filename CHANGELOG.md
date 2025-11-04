@@ -1,8 +1,20 @@
+## [4.1.0-beta.2](https://github.com/vidavidorra/create-project/compare/v4.1.0-beta.1...v4.1.0-beta.2) (2025-11-04)
+
+### Bug Fixes
+
+- **deps:** update vidavidorra/.github action to v7 ([#57](https://github.com/vidavidorra/create-project/issues/57)) ([10c4148](https://github.com/vidavidorra/create-project/commit/10c4148a4a1699325d6f7cc34c16c2264e154340))
+
 ## [4.0.45](https://github.com/vidavidorra/create-project/compare/v4.0.44...v4.0.45) (2025-10-29)
 
 ### Bug Fixes
 
 - **deps:** update vidavidorra/.github action to v7 ([#57](https://github.com/vidavidorra/create-project/issues/57)) ([10c4148](https://github.com/vidavidorra/create-project/commit/10c4148a4a1699325d6f7cc34c16c2264e154340))
+
+## [4.1.0-beta.1](https://github.com/vidavidorra/create-project/compare/v4.0.44...v4.1.0-beta.1) (2025-10-28)
+
+### Features
+
+- **ci-cd:** use OIDC instead of the Codecov and NPM tokens for improved security ([22337b5](https://github.com/vidavidorra/create-project/commit/22337b551e3f1d96073469b06b2adaea75e62217))
 
 ## [4.0.44](https://github.com/vidavidorra/create-project/compare/v4.0.43...v4.0.44) (2025-10-26)
 
