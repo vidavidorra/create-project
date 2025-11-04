@@ -21,7 +21,7 @@ jobs:
   test:
     uses: vidavidorra/.github/.github/workflows/node-test.yml@24ea160cd3be95b9bbfb4853d71124d2046d0d0e # v7.0.0
   code-coverage:
-    uses: vidavidorra/.github/.github/workflows/node-test-coverage.yml@660c2c3981334f4690d43df8555eac326705bd13 # v8.0.0-beta.1
+    uses: vidavidorra/.github/.github/workflows/node-test-coverage.yml@06f357a271f8bc7c0bc61cf27ec8cdb4ec9c9d26 # v8.0.0-beta.1
     needs:
       - lint
       - build
