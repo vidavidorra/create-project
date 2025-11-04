@@ -1,3 +1,9 @@
+## [4.1.0](https://github.com/vidavidorra/create-project/compare/v4.0.45...v4.1.0) (2025-11-04)
+
+### Features
+
+- **ci-cd:** use OIDC instead of the Codecov and NPM tokens for improved security ([22337b5](https://github.com/vidavidorra/create-project/commit/22337b551e3f1d96073469b06b2adaea75e62217))
+
 ## [4.1.0-beta.2](https://github.com/vidavidorra/create-project/compare/v4.1.0-beta.1...v4.1.0-beta.2) (2025-11-04)
 
 ### Bug Fixes
