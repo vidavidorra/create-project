@@ -1,3 +1,9 @@
+## [4.1.1](https://github.com/vidavidorra/create-project/compare/v4.1.0...v4.1.1) (2025-11-05)
+
+### Bug Fixes
+
+- **deps:** update vidavidorra/.github digest to 06f357a ([5594b32](https://github.com/vidavidorra/create-project/commit/5594b32cfe6dceebc00a6c4196e44c542732fd3b))
+
 ## [4.1.0](https://github.com/vidavidorra/create-project/compare/v4.0.45...v4.1.0) (2025-11-04)
 
 ### Features
