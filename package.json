@@ -52,6 +52,7 @@
     "space": true
   },
   "prettier": {
+    "bracketSpacing": false,
     "singleQuote": true
   },
   "release": {
