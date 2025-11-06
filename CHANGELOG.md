@@ -1,3 +1,9 @@
+## [4.1.3](https://github.com/vidavidorra/create-project/compare/v4.1.2...v4.1.3) (2025-11-06)
+
+### Bug Fixes
+
+- **package:** add `bracketSpacing` config to Prettier to align with the XO config ([2286793](https://github.com/vidavidorra/create-project/commit/228679357038c7f33b657a575260b839b7582199))
+
 ## [4.1.2](https://github.com/vidavidorra/create-project/compare/v4.1.1...v4.1.2) (2025-11-05)
 
 ### Bug Fixes
