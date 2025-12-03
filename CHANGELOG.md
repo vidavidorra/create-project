@@ -1,3 +1,9 @@
+## [4.1.19](https://github.com/vidavidorra/create-project/compare/v4.1.18...v4.1.19) (2025-12-03)
+
+### Bug Fixes
+
+- **deps:** update dependency yaml to v2.8.2 ([c1c802b](https://github.com/vidavidorra/create-project/commit/c1c802b04547ece1859fb10e23803f85e568323b))
+
 ## [4.1.18](https://github.com/vidavidorra/create-project/compare/v4.1.17...v4.1.18) (2025-12-02)
 
 ### Bug Fixes
