@@ -109,6 +109,7 @@ const dependencies = [
   '@semantic-release/exec',
   '@semantic-release/git',
   '@vidavidorra/commitlint-config',
+  '@vidavidorra/prettier-config',
   'husky',
   'lint-staged',
   'prettier',
