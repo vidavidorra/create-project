@@ -1,3 +1,13 @@
+## [4.2.0](https://github.com/vidavidorra/create-project/compare/v4.1.28...v4.2.0) (2025-12-11)
+
+### Features
+
+- use `@vidavidorra/prettier-config` for the Prettier configuration ([6b6add3](https://github.com/vidavidorra/create-project/commit/6b6add35493c6e93b91e4654af18577835628467))
+
+### Bug Fixes
+
+- **readme:** correct repository discussions link formatting in contributing section ([6335b59](https://github.com/vidavidorra/create-project/commit/6335b5930e9a502d79e6b2a21705962d7ea333cf))
+
 ## [4.1.28](https://github.com/vidavidorra/create-project/compare/v4.1.27...v4.1.28) (2025-12-11)
 
 ### Bug Fixes
