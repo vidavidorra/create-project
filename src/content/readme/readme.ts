@@ -71,7 +71,7 @@ class Readme extends File {
       ${[
         `Please [create an issue](${this.gitHubUrl('issues/new/choose')})`,
         'if you have a bug report or feature proposal, or',
-        `[create a discussion](${this.gitHubUrl('discussions')} if you have a`,
+        `[create a discussion](${this.gitHubUrl('discussions')}) if you have a`,
         'question. If you like this project, please consider giving it a star',
         '⭐ to support my work.',
       ].join(' ')}
