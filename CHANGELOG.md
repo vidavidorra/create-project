@@ -1,3 +1,9 @@
+## [4.2.1](https://github.com/vidavidorra/create-project/compare/v4.2.0...v4.2.1) (2025-12-11)
+
+### Bug Fixes
+
+- move `@vidavidorra/prettier-config` to dependencies ([663a824](https://github.com/vidavidorra/create-project/commit/663a824a48831714d48740b383b77545790f5121))
+
 ## [4.2.0](https://github.com/vidavidorra/create-project/compare/v4.1.28...v4.2.0) (2025-12-11)
 
 ### Features
