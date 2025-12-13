@@ -109,12 +109,13 @@ const dependencies = [
   '@semantic-release/exec',
   '@semantic-release/git',
   '@vidavidorra/commitlint-config',
+  '@vidavidorra/eslint-config',
   '@vidavidorra/prettier-config',
+  'eslint',
   'husky',
   'lint-staged',
   'prettier',
   'semantic-release',
-  'xo',
 ] as const;
 test('includes "typescript" dependency with "typescript" option', (t) => {
   t.deepEqual(

@@ -12,8 +12,8 @@ class LintStaged extends File {
     return this;
   }
 
-  private xo(): ts.Expression {
-    return ts.factory.createStringLiteral('xo --fix');
+  private eslint(): ts.Expression {
+    return ts.factory.createStringLiteral('eslint --fix');
   }
 
   private ava(): ts.Expression {
@@ -36,7 +36,7 @@ class LintStaged extends File {
       ts.factory.createPropertyAssignment(
         ts.factory.createStringLiteral('*.{ts,tsx,js,jsx}'),
         ts.factory.createArrayLiteralExpression([
-          this.xo(),
+          this.eslint(),
           ...(this._options.testing ? [this.ava()] : []),
         ]),
       ),

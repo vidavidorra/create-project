@@ -31,6 +31,7 @@ test(includes, '.github/renovate.json');
 test(includes, '.editorconfig');
 test(includes, '.gitignore');
 test(includes, '.npmrc');
+test(includes, 'eslint.config.js');
 test(includes, 'LICENSE.md');
 test(includes, 'package.json');
 test(includes, 'README.md');

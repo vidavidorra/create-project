@@ -1,5 +1,6 @@
 import {type Options} from '../options.js';
 import {CiCd} from './ci-cd.js';
+import {EslintConfig} from './eslint-config.js';
 import {File} from './file.js';
 import {LintStaged} from './lint-staged.js';
 import {Npmrc} from './npmrc.js';
@@ -17,6 +18,7 @@ function files(options: Options): File[] {
     new File('.editorconfig', options),
     new File('.gitignore', options),
     new Npmrc('.npmrc', options),
+    new EslintConfig('eslint.config.js', options),
     new File('LICENSE.md', options),
     new Package('package.json', options),
     new Readme('README.md', options),

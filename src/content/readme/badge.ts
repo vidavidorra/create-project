@@ -1,16 +1,17 @@
 import {type Options} from '../../options.js';
 
 type Config = Record<
+  | 'codeCoverage'
   | 'conventionalCommits'
-  | 'xo'
+  | 'eslint'
+  | 'license'
+  | 'nodeJsVersion'
+  | 'npmDownloads'
+  | 'npmVersion'
   | 'prettier'
   | 'renovate'
   | 'semanticRelease'
-  | 'codeCoverage'
-  | 'license'
-  | 'npmVersion'
-  | 'npmDownloads'
-  | 'nodeJsVersion',
+  | 'xo',
   {title: string; url: string; link: string}
 >;
 
@@ -34,15 +35,40 @@ class Badge {
 
   private get config(): Config {
     return {
+      codeCoverage: {
+        title: 'Code coverage',
+        url: `https://img.shields.io/codecov/c/github/${this.gitHubRepository}?logo=codecov`,
+        link: `https://codecov.io/gh/${this.gitHubRepository}`,
+      },
       conventionalCommits: {
         title: 'Conventional Commits: 1.0.0',
         url: 'https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow',
         link: 'https://conventionalcommits.org',
       },
-      xo: {
-        title: 'XO code style',
-        url: 'https://img.shields.io/badge/code_style-5ed9c7?logo=xo&labelColor=gray',
-        link: 'https://github.com/xojs/xo',
+      eslint: {
+        title: 'Linter',
+        url: 'https://img.shields.io/badge/Linter-ESLint-4B32C3?logo=eslint&style=flat-square',
+        link: 'https://eslint.org/',
+      },
+      license: {
+        title: 'License',
+        url: `https://img.shields.io/github/license/${this.gitHubRepository}`,
+        link: `LICENSE.md`,
+      },
+      nodeJsVersion: {
+        title: 'Node.js version support',
+        url: `https://img.shields.io/node/v/${this._options.package}?logo=node.js`,
+        link: `https://nodejs.org/en/about/releases/`,
+      },
+      npmDownloads: {
+        title: 'npm downloads',
+        url: `https://img.shields.io/npm/dm/${this._options.package}?logo=npm`,
+        link: `https://www.npmjs.com/package/${this._options.package}`,
+      },
+      npmVersion: {
+        title: 'npm version',
+        url: `https://img.shields.io/npm/v/${this._options.package}?logo=npm`,
+        link: `https://www.npmjs.com/package/${this._options.package}`,
       },
       prettier: {
         title: 'Prettier code style',
@@ -59,30 +85,10 @@ class Badge {
         url: 'https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079',
         link: 'https://github.com/semantic-release/semantic-release',
       },
-      codeCoverage: {
-        title: 'Code coverage',
-        url: `https://img.shields.io/codecov/c/github/${this.gitHubRepository}?logo=codecov`,
-        link: `https://codecov.io/gh/${this.gitHubRepository}`,
-      },
-      license: {
-        title: 'License',
-        url: `https://img.shields.io/github/license/${this.gitHubRepository}`,
-        link: `LICENSE.md`,
-      },
-      npmVersion: {
-        title: 'npm version',
-        url: `https://img.shields.io/npm/v/${this._options.package}?logo=npm`,
-        link: `https://www.npmjs.com/package/${this._options.package}`,
-      },
-      npmDownloads: {
-        title: 'npm downloads',
-        url: `https://img.shields.io/npm/dm/${this._options.package}?logo=npm`,
-        link: `https://www.npmjs.com/package/${this._options.package}`,
-      },
-      nodeJsVersion: {
-        title: 'Node.js version support',
-        url: `https://img.shields.io/node/v/${this._options.package}?logo=node.js`,
-        link: `https://nodejs.org/en/about/releases/`,
+      xo: {
+        title: 'XO code style',
+        url: 'https://img.shields.io/badge/code_style-5ed9c7?logo=xo&labelColor=gray',
+        link: 'https://github.com/xojs/xo',
       },
     };
   }

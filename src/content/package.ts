@@ -26,15 +26,14 @@ const schema = z.strictObject({
     format: z.string().startsWith('prettier'),
     // eslint-disable-next-line @typescript-eslint/naming-convention
     'format:check': z.string().startsWith('prettier'),
-    lint: z.literal('npm run format:check && xo'),
+    lint: z.literal('npm run format:check && eslint'),
     // eslint-disable-next-line @typescript-eslint/naming-convention
-    'lint:fix': z.literal('npm run format && xo --fix'),
+    'lint:fix': z.literal('npm run format && eslint --fix'),
     postinstall: z.string().optional(),
     prepare: z.literal('husky .github/husky'),
     test: z.string().min(1),
   }),
   commitlint: z.record(z.string(), z.unknown()),
-  xo: z.record(z.string(), z.unknown()),
   prettier: z.literal('@vidavidorra/prettier-config'),
   release: z.record(z.string(), z.unknown()),
   ava: z.record(z.string(), z.unknown()).optional(),
@@ -92,12 +91,13 @@ class Package extends File {
       '@semantic-release/exec',
       '@semantic-release/git',
       '@vidavidorra/commitlint-config',
+      '@vidavidorra/eslint-config',
       '@vidavidorra/prettier-config',
+      'eslint',
       'husky',
       'lint-staged',
       'prettier',
       'semantic-release',
-      'xo',
     ];
     if (this._options.typescript) {
       this._package.files = [this._fullPackage.files[0]];

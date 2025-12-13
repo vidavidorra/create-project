@@ -83,6 +83,7 @@ class Readme extends File {
       ].join(' ')}
 
       ${this._badge.markdown('conventionalCommits')}
+      ${this._badge.markdown('eslint')}
       ${this._badge.markdown('xo')}
       ${this._badge.markdown('prettier')}`);
   }
