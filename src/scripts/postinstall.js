@@ -27,7 +27,7 @@ function postinstall() {
 
 if (
   import.meta.url.startsWith('file:') &&
-  fileURLToPath(import.meta.url) === argv.at(1)
+    fileURLToPath(import.meta.url) === argv.at(1)
 ) {
   postinstall();
 }
