@@ -14,7 +14,7 @@ class TsConfig extends File {
 
   constructor(path: string, options: Options) {
     super(path, {...options, format: true});
-    this._tsConfig = schema.required().parse(JSON.parse(this._content));
+    this._tsConfig = schema.parse(JSON.parse(this._content));
   }
 
   get tsConfig() {

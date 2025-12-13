@@ -8,6 +8,10 @@ test('enables the "format" option', (t) => {
   t.true(new EslintConfig(path, options).options.format);
 });
 
+test('disables the "read" option', (t) => {
+  t.false(new EslintConfig(path, options).options.read);
+});
+
 test('exports the default from the "@vidavidorra/eslint-config" package', (t) => {
   const file = new EslintConfig(path, options).process();
 

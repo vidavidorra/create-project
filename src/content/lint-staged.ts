@@ -4,7 +4,7 @@ import {File} from './file.js';
 
 class LintStaged extends File {
   constructor(path: string, options: Options) {
-    super(path, {...options, format: true});
+    super(path, {...options, format: true, read: false});
   }
 
   override process(): this {

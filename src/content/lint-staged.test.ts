@@ -8,6 +8,10 @@ test('enables the "format" option', (t) => {
   t.true(new LintStaged(path, options).options.format);
 });
 
+test('disables the "read" option', (t) => {
+  t.false(new LintStaged(path, options).options.read);
+});
+
 test('does not include "ava" without "testing" option', (t) => {
   const file = new LintStaged(path, {...options, testing: false}).process();
   t.false(file.content.includes('ava'));
