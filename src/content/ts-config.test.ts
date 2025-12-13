@@ -1,10 +1,11 @@
 import test from 'ava';
 import {options} from '../_options.test.js';
-import {TsConfig, type TsConfigJson} from './ts-config.js';
+import {TsConfig, type Config} from './ts-config.js';
 
 const path = 'tsconfig.json';
-function tsConfig(): TsConfigJson {
-  return new TsConfig(path, options).process().tsConfig;
+
+function config(): Config {
+  return new TsConfig(path, options).process().config;
 }
 
 test('enables the "format" option', (t) => {
@@ -12,14 +13,12 @@ test('enables the "format" option', (t) => {
 });
 
 test('does not include compiler option "allowJs"', (t) => {
-  t.is(tsConfig().compilerOptions.allowJs, undefined);
+  t.is(config().compilerOptions.allowJs, undefined);
 });
 
-const includesCompilerOption = test.macro<
-  [keyof TsConfigJson['compilerOptions']]
->({
+const includesCompilerOption = test.macro<[keyof Config['compilerOptions']]>({
   async exec(t, option) {
-    t.not(tsConfig().compilerOptions[option], undefined);
+    t.not(config().compilerOptions[option], undefined);
   },
   title: (_, option) => `includes compiler option "${option}"`,
 });
@@ -34,5 +33,5 @@ test(includesCompilerOption, 'strict');
 test(includesCompilerOption, 'target');
 
 test('includes "include" for "src/**/*.ts"', (t) => {
-  t.deepEqual(tsConfig().include, ['src/**/*.ts']);
+  t.deepEqual(config().include, ['src/**/*.ts']);
 });

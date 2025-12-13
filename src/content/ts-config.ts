@@ -7,25 +7,25 @@ const schema = z.strictObject({
   include: z.array(z.string()).min(1),
 });
 
-type TsConfigJson = z.infer<typeof schema>;
+type Config = z.infer<typeof schema>;
 
 class TsConfig extends File {
-  protected readonly _tsConfig: TsConfigJson;
+  protected readonly _config: Config;
 
   constructor(path: string, options: Options) {
     super(path, {...options, format: true});
-    this._tsConfig = schema.parse(JSON.parse(this._content));
+    this._config = schema.parse(JSON.parse(this._content));
   }
 
-  get tsConfig() {
-    return structuredClone(this._tsConfig);
+  get config() {
+    return structuredClone(this._config);
   }
 
   override process(): this {
-    delete this._tsConfig.compilerOptions.allowJs;
-    this._content = JSON.stringify(this._tsConfig, undefined, 2);
+    delete this._config.compilerOptions.allowJs;
+    this._content = JSON.stringify(this._config, undefined, 2);
     return this;
   }
 }
 
-export {TsConfig, type TsConfigJson};
+export {TsConfig, type Config};
