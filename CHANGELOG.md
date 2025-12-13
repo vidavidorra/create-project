@@ -1,3 +1,9 @@
+## [4.3.0](https://github.com/vidavidorra/create-project/compare/v4.2.4...v4.3.0) (2025-12-13)
+
+### Features
+
+- add ESLint for linting, instead of XO (which uses ESLint internally) ([448c36e](https://github.com/vidavidorra/create-project/commit/448c36e2afa9416b8df1f7946b8c48322be45052))
+
 ## [4.2.4](https://github.com/vidavidorra/create-project/compare/v4.2.3...v4.2.4) (2025-12-13)
 
 ### Bug Fixes
