@@ -1,3 +1,17 @@
+## [4.4.0](https://github.com/vidavidorra/create-project/compare/v4.3.0...v4.4.0) (2025-12-13)
+
+### Features
+
+- **renovate:** remove `packageRules` from the renovate configuration ([eb0a3ec](https://github.com/vidavidorra/create-project/commit/eb0a3ec2f7555fa315aeef1c12127b239824717a))
+
+### Bug Fixes
+
+- don't read the files for the ESLint configuration and lint-staged ([f2ac1a1](https://github.com/vidavidorra/create-project/commit/f2ac1a1203421316dcc7258e2691103bdb365922))
+
+### Code Refactoring
+
+- **tsconfig:** rename `_tsConfig` to config, as well as in the JSON schema type ([ed5b5b9](https://github.com/vidavidorra/create-project/commit/ed5b5b97c4818895168882bb527b8c5dcecdd666))
+
 ## [4.3.0](https://github.com/vidavidorra/create-project/compare/v4.2.4...v4.3.0) (2025-12-13)
 
 ### Features
