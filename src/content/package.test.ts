@@ -105,12 +105,10 @@ test(doesNotIncludeDep, 'c8', 'testing');
 
 const dependencies = [
   '@commitlint/cli',
-  '@semantic-release/changelog',
-  '@semantic-release/exec',
-  '@semantic-release/git',
   '@vidavidorra/commitlint-config',
   '@vidavidorra/eslint-config',
   '@vidavidorra/prettier-config',
+  '@vidavidorra/semantic-release-config',
   'eslint',
   'husky',
   'lint-staged',

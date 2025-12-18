@@ -42,7 +42,6 @@ const schema = z.strictObject({
   devDependencies: z.record(z.string(), z.string()),
   engines: z.strictObject({node: z.literal('>=22')}),
   publishConfig: z.strictObject({access: z.literal('public')}).optional(),
-  overrides: z.record(z.string(), z.unknown()).optional(),
 });
 
 type PackageJson = z.infer<typeof schema>;
@@ -77,7 +76,6 @@ class Package extends File {
     delete this._package.bin;
     delete this._package.dependencies;
     delete this._package.scripts.postinstall;
-    delete this._package.overrides;
     if (this._options.public) {
       delete this._package.private;
     } else {
@@ -87,12 +85,10 @@ class Package extends File {
 
     const devDependencies = [
       '@commitlint/cli',
-      '@semantic-release/changelog',
-      '@semantic-release/exec',
-      '@semantic-release/git',
       '@vidavidorra/commitlint-config',
       '@vidavidorra/eslint-config',
       '@vidavidorra/prettier-config',
+      '@vidavidorra/semantic-release-config',
       'eslint',
       'husky',
       'lint-staged',
