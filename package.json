@@ -91,7 +91,7 @@
     "@types/sinon": "21.0.0",
     "@types/validate-npm-package-name": "4.0.2",
     "@vidavidorra/commitlint-config": "7.1.6",
-    "@vidavidorra/eslint-config": "1.0.2",
+    "@vidavidorra/eslint-config": "1.0.3",
     "@vidavidorra/semantic-release-config": "1.0.1",
     "ava": "6.4.1",
     "c8": "10.1.3",
