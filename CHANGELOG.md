@@ -1,3 +1,7 @@
+## 4.5.0 (2025-12-18)
+
+- feat: replace semantic-release config with `@vidavidorra/semantic-release-config` ([66f0084](https://github.com/vidavidorra/create-project/commit/66f0084))
+
 ## [4.4.5](https://github.com/vidavidorra/create-project/compare/v4.4.4...v4.4.5) (2025-12-18)
 
 ### Bug Fixes
