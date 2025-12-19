@@ -82,7 +82,7 @@
     "typescript": "5.9.3",
     "validate-npm-package-name": "7.0.0",
     "yaml": "2.8.2",
-    "zod": "4.2.0"
+    "zod": "4.2.1"
   },
   "devDependencies": {
     "@ava/typescript": "6.0.0",
