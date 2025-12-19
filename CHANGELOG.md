@@ -1,3 +1,7 @@
+## <small>4.5.4 (2025-12-19)</small>
+
+- fix(deps): update dependency zod to v4.2.1 ([fbf9b28](https://github.com/vidavidorra/create-project/commit/fbf9b28))
+
 ## <small>4.5.3 (2025-12-19)</small>
 
 - fix(deps): update dependency @vidavidorra/semantic-release-config to v1.0.3 ([6ccc622](https://github.com/vidavidorra/create-project/commit/6ccc622))
