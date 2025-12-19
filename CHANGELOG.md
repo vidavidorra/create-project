@@ -1,3 +1,7 @@
+## <small>4.5.3 (2025-12-19)</small>
+
+- fix(deps): update dependency @vidavidorra/semantic-release-config to v1.0.3 ([6ccc622](https://github.com/vidavidorra/create-project/commit/6ccc622))
+
 ## <small>4.5.2 (2025-12-19)</small>
 
 - docs: format last changelog entries for vidavidorra/semantic-release-config#3 ([d38b011](https://github.com/vidavidorra/create-project/commit/d38b011)), closes [vidavidorra/semantic-release-config#3](https://github.com/vidavidorra/semantic-release-config/issues/3)
