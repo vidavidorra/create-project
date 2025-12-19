@@ -1,3 +1,7 @@
+## <small>4.5.1 (2025-12-19)</small>
+
+- fix(deps): update dependency @vidavidorra/eslint-config to v1.0.3 ([8881b06](https://github.com/vidavidorra/create-project/commit/8881b06))
+
 ## 4.5.0 (2025-12-18)
 
 - feat: replace semantic-release config with `@vidavidorra/semantic-release-config` ([66f0084](https://github.com/vidavidorra/create-project/commit/66f0084))
