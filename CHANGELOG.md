@@ -1,3 +1,7 @@
+## <small>4.5.2 (2025-12-19)</small>
+
+- docs: format last changelog entries for vidavidorra/semantic-release-config#3 ([d38b011](https://github.com/vidavidorra/create-project/commit/d38b011)), closes [vidavidorra/semantic-release-config#3](https://github.com/vidavidorra/semantic-release-config/issues/3)
+
 ## [4.5.1](https://github.com/vidavidorra/create-project/compare/v4.5.0...v4.5.1) (2025-12-19)
 
 ### Bug Fixes
