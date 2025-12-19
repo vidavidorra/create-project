@@ -1,10 +1,14 @@
-## <small>4.5.1 (2025-12-19)</small>
+## [4.5.1](https://github.com/vidavidorra/create-project/compare/v4.5.0...v4.5.1) (2025-12-19)
 
-- fix(deps): update dependency @vidavidorra/eslint-config to v1.0.3 ([8881b06](https://github.com/vidavidorra/create-project/commit/8881b06))
+### Bug Fixes
 
-## 4.5.0 (2025-12-18)
+- update dependency @vidavidorra/eslint-config to v1.0.3 ([8881b06](https://github.com/vidavidorra/create-project/commit/8881b06e860c587a202bef30eb241f7743e1d8f9))
 
-- feat: replace semantic-release config with `@vidavidorra/semantic-release-config` ([66f0084](https://github.com/vidavidorra/create-project/commit/66f0084))
+## [4.5.0](https://github.com/vidavidorra/create-project/compare/v4.4.5...v4.5.0) (2025-12-18)
+
+### Features
+
+- replace semantic-release config with `@vidavidorra/semantic-release-config` ([66f0084](https://github.com/vidavidorra/create-project/commit/66f00841f91413e17c37922a8ca895e55d0311dc))
 
 ## [4.4.5](https://github.com/vidavidorra/create-project/compare/v4.4.4...v4.4.5) (2025-12-18)
 
