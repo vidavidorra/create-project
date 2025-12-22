@@ -1,3 +1,7 @@
+## <small>4.5.5 (2025-12-22)</small>
+
+- fix(deps): update dependency validate-npm-package-name to v7.0.1 ([0b2008e](https://github.com/vidavidorra/create-project/commit/0b2008e))
+
 ## <small>4.5.4 (2025-12-19)</small>
 
 - fix(deps): update dependency zod to v4.2.1 ([fbf9b28](https://github.com/vidavidorra/create-project/commit/fbf9b28))
