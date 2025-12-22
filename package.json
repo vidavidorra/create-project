@@ -80,7 +80,7 @@
     "prettier": "3.7.4",
     "sort-package-json": "3.6.0",
     "typescript": "5.9.3",
-    "validate-npm-package-name": "7.0.0",
+    "validate-npm-package-name": "7.0.1",
     "yaml": "2.8.2",
     "zod": "4.2.1"
   },
