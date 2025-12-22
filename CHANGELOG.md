@@ -1,3 +1,7 @@
+## <small>4.5.6 (2025-12-22)</small>
+
+- fix(deps): update vidavidorra/.github action to v8.0.11 ([fe0dc9c](https://github.com/vidavidorra/create-project/commit/fe0dc9c))
+
 ## <small>4.5.5 (2025-12-22)</small>
 
 - fix(deps): update dependency validate-npm-package-name to v7.0.1 ([0b2008e](https://github.com/vidavidorra/create-project/commit/0b2008e))
