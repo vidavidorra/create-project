@@ -1,3 +1,8 @@
+## <small>4.5.7 (2025-12-23)</small>
+
+- fix(deps): update vidavidorra/.github action to v8.0.12 ([1c1df79](https://github.com/vidavidorra/create-project/commit/1c1df79))
+- chore(deps): update dependency sinon to v21.0.1 ([72872dc](https://github.com/vidavidorra/create-project/commit/72872dc))
+
 ## <small>4.5.6 (2025-12-22)</small>
 
 - fix(deps): update vidavidorra/.github action to v8.0.11 ([fe0dc9c](https://github.com/vidavidorra/create-project/commit/fe0dc9c))
