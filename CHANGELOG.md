@@ -1,3 +1,9 @@
+## [4.5.10](https://github.com/vidavidorra/create-project/compare/v4.5.9...v4.5.10) (2025-12-25)
+
+### Documentation
+
+- format last changelog entries for vidavidorra/semantic-release-config[#3](https://github.com/vidavidorra/create-project/issues/3) ([033f33c](https://github.com/vidavidorra/create-project/commit/033f33cc881aad0dc2f2537af567b3030b7aad5e))
+
 ## [4.5.9](https://github.com/vidavidorra/create-project/compare/v4.5.8...v4.5.9) (2025-12-25)
 
 ### Bug Fixes
