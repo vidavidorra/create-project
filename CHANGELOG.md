@@ -1,3 +1,10 @@
+## [4.5.8](https://github.com/vidavidorra/create-project/compare/v4.5.7...v4.5.8) (2025-12-25)
+
+### Bug Fixes
+
+- **deps:** update dependency @vidavidorra/semantic-release-config to v1.0.4 ([4f80314](https://github.com/vidavidorra/create-project/commit/4f80314a20bed5a41a588242aea71d8134898ab1))
+- **package:** add `overrides` for `conventional-changelog-conventionalcommits` ([de57fa1](https://github.com/vidavidorra/create-project/commit/de57fa187e0446a6cdf98e80c8a3bd17a97d1364))
+
 ## <small>4.5.7 (2025-12-23)</small>
 
 - fix(deps): update vidavidorra/.github action to v8.0.12 ([1c1df79](https://github.com/vidavidorra/create-project/commit/1c1df79))
