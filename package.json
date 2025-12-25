@@ -74,6 +74,11 @@
       "text-summary"
     ]
   },
+  "overrides": {
+    "@commitlint/config-conventional": {
+      "conventional-changelog-conventionalcommits": ">=9.0.0"
+    }
+  },
   "dependencies": {
     "@inquirer/prompts": "8.1.0",
     "@vidavidorra/prettier-config": "1.0.4",

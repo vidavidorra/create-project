@@ -38,6 +38,11 @@ const schema = z.strictObject({
   release: z.record(z.string(), z.unknown()),
   ava: z.record(z.string(), z.unknown()).optional(),
   c8: z.record(z.string(), z.unknown()).optional(),
+  overrides: z.strictObject({
+    '@commitlint/config-conventional': z.strictObject({
+      'conventional-changelog-conventionalcommits': z.literal('>=9.0.0'),
+    })
+  }),
   dependencies: z.record(z.string(), z.string()).optional(),
   devDependencies: z.record(z.string(), z.string()),
   engines: z.strictObject({node: z.literal('>=22')}),
