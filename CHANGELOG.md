@@ -11,30 +11,41 @@
 - **deps:** update dependency @vidavidorra/semantic-release-config to v1.0.4 ([4f80314](https://github.com/vidavidorra/create-project/commit/4f80314a20bed5a41a588242aea71d8134898ab1))
 - **package:** add `overrides` for `conventional-changelog-conventionalcommits` ([de57fa1](https://github.com/vidavidorra/create-project/commit/de57fa187e0446a6cdf98e80c8a3bd17a97d1364))
 
-## <small>4.5.7 (2025-12-23)</small>
+## [4.5.7](https://github.com/vidavidorra/create-project/compare/v4.5.6...v4.5.7) (2025-12-23)
 
-- fix(deps): update vidavidorra/.github action to v8.0.12 ([1c1df79](https://github.com/vidavidorra/create-project/commit/1c1df79))
-- chore(deps): update dependency sinon to v21.0.1 ([72872dc](https://github.com/vidavidorra/create-project/commit/72872dc))
+### Bug Fixes
 
-## <small>4.5.6 (2025-12-22)</small>
+- **deps:** update vidavidorra/.github action to v8.0.12 ([1c1df79](https://github.com/vidavidorra/create-project/commit/1c1df79c0401447950968e7b6fc9e80208c1ccaf))
 
-- fix(deps): update vidavidorra/.github action to v8.0.11 ([fe0dc9c](https://github.com/vidavidorra/create-project/commit/fe0dc9c))
+## [4.5.6](https://github.com/vidavidorra/create-project/compare/v4.5.5...v4.5.6) (2025-12-22)
 
-## <small>4.5.5 (2025-12-22)</small>
+### Bug Fixes
 
-- fix(deps): update dependency validate-npm-package-name to v7.0.1 ([0b2008e](https://github.com/vidavidorra/create-project/commit/0b2008e))
+- **deps:** update vidavidorra/.github action to v8.0.11 ([fe0dc9c](https://github.com/vidavidorra/create-project/commit/fe0dc9c9f0251c2b1631d1f0ef97d4a15ba3d9c2))
 
-## <small>4.5.4 (2025-12-19)</small>
+## [4.5.5](https://github.com/vidavidorra/create-project/compare/v4.5.4...v4.5.5) (2025-12-22)
 
-- fix(deps): update dependency zod to v4.2.1 ([fbf9b28](https://github.com/vidavidorra/create-project/commit/fbf9b28))
+### Bug Fixes
 
-## <small>4.5.3 (2025-12-19)</small>
+- **deps:** update dependency validate-npm-package-name to v7.0.1 ([0b2008e](https://github.com/vidavidorra/create-project/commit/0b2008e60906ee28a52a7ae4687de8a799df2ee3))
 
-- fix(deps): update dependency @vidavidorra/semantic-release-config to v1.0.3 ([6ccc622](https://github.com/vidavidorra/create-project/commit/6ccc622))
+## [4.5.4](https://github.com/vidavidorra/create-project/compare/v4.5.3...v4.5.4) (2025-12-19)
 
-## <small>4.5.2 (2025-12-19)</small>
+### Bug Fixes
 
-- docs: format last changelog entries for vidavidorra/semantic-release-config#3 ([d38b011](https://github.com/vidavidorra/create-project/commit/d38b011)), closes [vidavidorra/semantic-release-config#3](https://github.com/vidavidorra/semantic-release-config/issues/3)
+- **deps:** update dependency zod to v4.2.1 ([fbf9b28](https://github.com/vidavidorra/create-project/commit/fbf9b288e84a8422fa19759ab60e91d107e7e6fd))
+
+## [4.5.3](https://github.com/vidavidorra/create-project/compare/v4.5.2...v4.5.3) (2025-12-19)
+
+### Bug Fixes
+
+- **deps:** update dependency @vidavidorra/semantic-release-config to v1.0.3 ([6ccc622](https://github.com/vidavidorra/create-project/commit/6ccc622587747beccd05c227eaae869e27d4b281))
+
+## [4.5.2](https://github.com/vidavidorra/create-project/compare/v4.5.1...v4.5.2) (2025-12-19)
+
+### Documentation
+
+- format last changelog entries for vidavidorra/semantic-release-config#3 ([d38b011](https://github.com/vidavidorra/create-project/commit/d38b011add413aa7ff71784a22f3543127c035eb)), closes [vidavidorra/semantic-release-config#3](https://github.com/vidavidorra/semantic-release-config/issues/3)
 
 ## [4.5.1](https://github.com/vidavidorra/create-project/compare/v4.5.0...v4.5.1) (2025-12-19)
 
