@@ -95,7 +95,7 @@
     "@types/node": "24.10.4",
     "@types/sinon": "21.0.0",
     "@types/validate-npm-package-name": "4.0.2",
-    "@vidavidorra/commitlint-config": "7.1.8",
+    "@vidavidorra/commitlint-config": "7.1.9",
     "@vidavidorra/eslint-config": "1.0.3",
     "@vidavidorra/semantic-release-config": "1.0.4",
     "ava": "6.4.1",
