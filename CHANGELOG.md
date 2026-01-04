@@ -1,3 +1,9 @@
+## [4.5.17](https://github.com/vidavidorra/create-project/compare/v4.5.16...v4.5.17) (2026-01-04)
+
+### Bug Fixes
+
+- **deps:** update dependency @commitlint/cli to v20.3.0 ([c6eec19](https://github.com/vidavidorra/create-project/commit/c6eec190a154d31960fc9b2a25ce1a06c0e9a0d3))
+
 ## [4.5.16](https://github.com/vidavidorra/create-project/compare/v4.5.15...v4.5.16) (2026-01-04)
 
 ### Bug Fixes
