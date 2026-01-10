@@ -1,3 +1,9 @@
+## [4.5.23](https://github.com/vidavidorra/create-project/compare/v4.5.22...v4.5.23) (2026-01-10)
+
+### Bug Fixes
+
+- **deps:** update dependency validate-npm-package-name to v7.0.2 ([e5874a2](https://github.com/vidavidorra/create-project/commit/e5874a2d8afb74537d4da41d711c6fbe653cd90d))
+
 ## [4.5.22](https://github.com/vidavidorra/create-project/compare/v4.5.21...v4.5.22) (2026-01-07)
 
 ### Bug Fixes
