@@ -80,7 +80,7 @@
     }
   },
   "dependencies": {
-    "@inquirer/prompts": "8.2.0",
+    "@inquirer/prompts": "8.2.1",
     "@vidavidorra/prettier-config": "1.0.6",
     "prettier": "3.8.1",
     "sort-package-json": "3.6.1",
