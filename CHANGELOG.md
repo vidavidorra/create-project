@@ -1,3 +1,9 @@
+## [4.5.43](https://github.com/vidavidorra/create-project/compare/v4.5.42...v4.5.43) (2026-02-23)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint to v9.39.3 ([f209dcc](https://github.com/vidavidorra/create-project/commit/f209dcc34bdb71a689c27c0550c0c482c48177b2))
+
 ## [4.5.42](https://github.com/vidavidorra/create-project/compare/v4.5.41...v4.5.42) (2026-02-22)
 
 ### Bug Fixes
