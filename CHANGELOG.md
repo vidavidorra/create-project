@@ -1,3 +1,9 @@
+## [4.5.45](https://github.com/vidavidorra/create-project/compare/v4.5.44...v4.5.45) (2026-02-24)
+
+### Reverts
+
+- add overrides for conventional-changelog-conventionalcommits (de57fa1) ([4a34e95](https://github.com/vidavidorra/create-project/commit/4a34e950231997a378c1e71b3ca3f8818b9ad5cd))
+
 ## [4.5.44](https://github.com/vidavidorra/create-project/compare/v4.5.43...v4.5.44) (2026-02-24)
 
 ### Bug Fixes
