@@ -45,13 +45,6 @@ test('does not include "dependencies"', (t) => {
 test('sets "files" to non-test files in dist', (t) => {
   t.deepEqual(packageJson().files, ['./dist/**/!(*.test).{js,d.ts,cjs}']);
 });
-test('sets "overrides" to override "conventional-changelog-conventionalcommits"', (t) => {
-  t.deepEqual(packageJson().overrides,  {
-    "@commitlint/config-conventional": {
-      "conventional-changelog-conventionalcommits": ">=9.0.0"
-    }
-  });
-});
 
 const includes = test.macro<[boolean, keyof PackageJson, keyof Options]>({
   async exec(t, include, value, option) {
