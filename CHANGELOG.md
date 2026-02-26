@@ -1,3 +1,9 @@
+## [4.5.48](https://github.com/vidavidorra/create-project/compare/v4.5.47...v4.5.48) (2026-02-26)
+
+### Bug Fixes
+
+- **deps:** update dependency c8 to v11 ([#67](https://github.com/vidavidorra/create-project/issues/67)) ([7d1bf1e](https://github.com/vidavidorra/create-project/commit/7d1bf1ece6a0eba74a1d8335cc6c837b4665ab81))
+
 ## [4.5.47](https://github.com/vidavidorra/create-project/compare/v4.5.46...v4.5.47) (2026-02-26)
 
 ### Bug Fixes
