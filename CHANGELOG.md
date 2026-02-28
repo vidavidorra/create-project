@@ -1,3 +1,9 @@
+## [4.5.49](https://github.com/vidavidorra/create-project/compare/v4.5.48...v4.5.49) (2026-02-28)
+
+### Bug Fixes
+
+- **deps:** update dependency @vidavidorra/eslint-config to v1.0.4 ([7cda4e5](https://github.com/vidavidorra/create-project/commit/7cda4e5a81ef18d3f51d92f8701ca47f42ae24e2))
+
 ## [4.5.48](https://github.com/vidavidorra/create-project/compare/v4.5.47...v4.5.48) (2026-02-26)
 
 ### Bug Fixes
