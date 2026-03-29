@@ -23,14 +23,16 @@ const includesCompilerOption = test.macro<[keyof Config['compilerOptions']]>({
   title: (_, option) => `includes compiler option "${option}"`,
 });
 test(includesCompilerOption, 'declaration');
-test(includesCompilerOption, 'module');
 test(includesCompilerOption, 'esModuleInterop');
+test(includesCompilerOption, 'module');
 test(includesCompilerOption, 'moduleResolution');
 test(includesCompilerOption, 'outDir');
+test(includesCompilerOption, 'rootDir');
 test(includesCompilerOption, 'skipLibCheck');
 test(includesCompilerOption, 'sourceMap');
 test(includesCompilerOption, 'strict');
 test(includesCompilerOption, 'target');
+test(includesCompilerOption, 'types');
 
 test('includes "include" for "src/**/*.ts"', (t) => {
   t.deepEqual(config().include, ['src/**/*.ts']);
