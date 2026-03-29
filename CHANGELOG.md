@@ -1,3 +1,9 @@
+## [4.5.71](https://github.com/vidavidorra/create-project/compare/v4.5.70...v4.5.71) (2026-03-29)
+
+### Bug Fixes
+
+- **deps:** update dependency typescript to v6 ([#70](https://github.com/vidavidorra/create-project/issues/70)) ([dde74f4](https://github.com/vidavidorra/create-project/commit/dde74f48c5a88fba3b7c1b04c282fbde8a002bea))
+
 ## [4.5.70](https://github.com/vidavidorra/create-project/compare/v4.5.69...v4.5.70) (2026-03-24)
 
 ### Bug Fixes
