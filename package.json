@@ -49,7 +49,7 @@
   },
   "prettier": "@vidavidorra/prettier-config",
   "release": {
-    "extends": "@vidavidorra/semantic-release-config"
+    "extends": "@vidavidorra/semantic-release-config/npm"
   },
   "ava": {
     "files": [
@@ -92,7 +92,7 @@
     "@types/validate-npm-package-name": "4.0.2",
     "@vidavidorra/commitlint-config": "7.1.17",
     "@vidavidorra/eslint-config": "1.0.4",
-    "@vidavidorra/semantic-release-config": "1.0.4",
+    "@vidavidorra/semantic-release-config": "2.0.1",
     "ava": "7.0.0",
     "c8": "11.0.0",
     "eslint": "9.39.4",
