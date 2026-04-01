@@ -1,3 +1,9 @@
+## [4.5.74](https://github.com/vidavidorra/create-project/compare/v4.5.73...v4.5.74) (2026-04-01)
+
+### Bug Fixes
+
+- **deps:** update dependency @vidavidorra/semantic-release-config to v2 ([#71](https://github.com/vidavidorra/create-project/issues/71)) ([d95c023](https://github.com/vidavidorra/create-project/commit/d95c023528a99ce87f120dcd0261d79b84d0a863))
+
 ## [4.5.73](https://github.com/vidavidorra/create-project/compare/v4.5.72...v4.5.73) (2026-03-30)
 
 ### Bug Fixes
