@@ -1,3 +1,9 @@
+## [4.5.82](https://github.com/vidavidorra/create-project/compare/v4.5.81...v4.5.82) (2026-04-20)
+
+### Bug Fixes
+
+- **deps:** update dependency @ava/typescript to v7 ([#72](https://github.com/vidavidorra/create-project/issues/72)) ([de20ac5](https://github.com/vidavidorra/create-project/commit/de20ac5384b2870a1387582c76cf6fda611cc192))
+
 ## [4.5.81](https://github.com/vidavidorra/create-project/compare/v4.5.80...v4.5.81) (2026-04-18)
 
 ### Bug Fixes
