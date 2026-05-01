@@ -1,3 +1,9 @@
+## [4.5.89](https://github.com/vidavidorra/create-project/compare/v4.5.88...v4.5.89) (2026-05-01)
+
+### Bug Fixes
+
+- **deps:** update dependency ava to v8 ([#73](https://github.com/vidavidorra/create-project/issues/73)) ([6e2e4b9](https://github.com/vidavidorra/create-project/commit/6e2e4b93d3dcb7ccf0df0855ecf9e7e4e55f84e6))
+
 ## [4.5.88](https://github.com/vidavidorra/create-project/compare/v4.5.87...v4.5.88) (2026-04-29)
 
 ### Bug Fixes
