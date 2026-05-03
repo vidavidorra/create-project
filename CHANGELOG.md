@@ -1,3 +1,9 @@
+## [4.5.92](https://github.com/vidavidorra/create-project/compare/v4.5.91...v4.5.92) (2026-05-03)
+
+### Bug Fixes
+
+- **deps:** update dependency @vidavidorra/commitlint-config to v7.1.19 ([8d3152a](https://github.com/vidavidorra/create-project/commit/8d3152aa51a93451a80f4b1f293d49d375594718))
+
 ## [4.5.91](https://github.com/vidavidorra/create-project/compare/v4.5.90...v4.5.91) (2026-05-03)
 
 ### Bug Fixes
