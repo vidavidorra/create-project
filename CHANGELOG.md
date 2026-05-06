@@ -1,3 +1,9 @@
+## [4.5.96](https://github.com/vidavidorra/create-project/compare/v4.5.95...v4.5.96) (2026-05-06)
+
+### Bug Fixes
+
+- **deps:** update vidavidorra/.github action to v8.1.15 ([a1b8fbd](https://github.com/vidavidorra/create-project/commit/a1b8fbdf97fb82a47956eff614e0643a1004a4a7))
+
 ## [4.5.95](https://github.com/vidavidorra/create-project/compare/v4.5.94...v4.5.95) (2026-05-05)
 
 ### Bug Fixes
