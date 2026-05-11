@@ -92,7 +92,7 @@
     "@types/validate-npm-package-name": "4.0.2",
     "@vidavidorra/commitlint-config": "7.1.19",
     "@vidavidorra/eslint-config": "1.0.4",
-    "@vidavidorra/semantic-release-config": "2.0.1",
+    "@vidavidorra/semantic-release-config": "2.0.2",
     "ava": "8.0.0",
     "c8": "11.0.0",
     "eslint": "9.39.4",
