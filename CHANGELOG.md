@@ -1,3 +1,9 @@
+## [4.5.104](https://github.com/vidavidorra/create-project/compare/v4.5.103...v4.5.104) (2026-05-12)
+
+### Bug Fixes
+
+- **deps:** update dependency validate-npm-package-name to v8 ([#77](https://github.com/vidavidorra/create-project/issues/77)) ([6f1428d](https://github.com/vidavidorra/create-project/commit/6f1428de99aac01500c4a5db9a089704770af7d9))
+
 ## [4.5.103](https://github.com/vidavidorra/create-project/compare/v4.5.102...v4.5.103) (2026-05-12)
 
 ### Bug Fixes
