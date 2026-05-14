@@ -1,3 +1,9 @@
+## [4.5.107](https://github.com/vidavidorra/create-project/compare/v4.5.106...v4.5.107) (2026-05-14)
+
+### Bug Fixes
+
+- **deps:** update dependency yaml to v2.9.0 ([73d99bf](https://github.com/vidavidorra/create-project/commit/73d99bf89eee0aa0eb30db4ffb07b74702da66e2))
+
 ## [4.5.106](https://github.com/vidavidorra/create-project/compare/v4.5.105...v4.5.106) (2026-05-13)
 
 ### Bug Fixes
