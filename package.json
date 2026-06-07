@@ -87,7 +87,7 @@
   "devDependencies": {
     "@ava/typescript": "7.0.0",
     "@commitlint/cli": "21.0.2",
-    "@types/node": "24.12.4",
+    "@types/node": "24.13.0",
     "@types/sinon": "21.0.1",
     "@types/validate-npm-package-name": "4.0.2",
     "@vidavidorra/commitlint-config": "8.0.1",
